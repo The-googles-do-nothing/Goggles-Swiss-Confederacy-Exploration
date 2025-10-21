@@ -240,7 +240,6 @@
 					<Item>data/victories.xml</Item>
 				</UpdateDatabase>
 				<UIScripts>
-					<Item>ui/tutorial/tutorial-quest-items-exploration.js</Item>
 				</UIScripts>
 				<ImportFiles>
 				</ImportFiles>
