@@ -13,7 +13,7 @@
 
 	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="YieldType">YIELD_CULTURE</Argument>
-		<Argument name="Amount">3</Argument>
+		<Argument name="Amount">2</Argument>
 		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</Argument>
 		<String context="Description">LOC_QUARTER_FURSTABTEI_DESCRIPTION</String>
 	</Modifier>
@@ -28,8 +28,8 @@
 	</Modifier>
 
 	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="YieldType">YIELD_CULTURE</Argument>
-		<Argument name="Amount">1</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">2</Argument>
 		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</Argument>
 		<String context="Description">LOC_QUARTER_FURSTABTEI_DESCRIPTION</String>
 	</Modifier>

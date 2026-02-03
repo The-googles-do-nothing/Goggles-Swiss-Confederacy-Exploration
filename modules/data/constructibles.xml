@@ -81,7 +81,7 @@
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
 		<!-- Civ Unique Improvements -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="1"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="1"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>

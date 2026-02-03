@@ -144,6 +144,7 @@
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy_jec</Item>
@@ -238,6 +239,8 @@
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/unlocks-exploration.xml</Item>
 					<Item>data/victories.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
 				</UpdateDatabase>
 				<UIScripts>
 				</UIScripts>

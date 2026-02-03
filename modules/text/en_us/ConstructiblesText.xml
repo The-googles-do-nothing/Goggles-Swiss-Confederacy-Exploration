@@ -11,7 +11,7 @@
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_TOOLTIP">
-			<Text>+3[icon:YIELD_FOOD] Food.</Text>
+			<Text>+1[icon:YIELD_FOOD] Food.</Text>
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME">
@@ -54,10 +54,10 @@
 			<Text>Fürstabtei (Abby)</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_DESCRIPTION">
-			<Text>+3[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_CULTURE] Culture to Mountains</Text>
+			<Text>+2[icon:YIELD_CULTURE] Culture to Tundra Mountains, +2[icon:YIELD_FOOD] Food to Mountains</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_TOOLTIP">
-			<Text>+3[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_CULTURE] Culture to Mountains</Text>
+			<Text>+2[icon:YIELD_CULTURE] Culture to Tundra Mountains, +2[icon:YIELD_FOOD] Food to Mountains</Text>
 		</Row>
 
 
