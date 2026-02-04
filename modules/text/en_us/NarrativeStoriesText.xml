@@ -14,7 +14,7 @@
             <Text>{1_reward}.</Text>
         </Row>
         <Row Tag="LOC_SWISS_CONFEDERACY_JEC_COMPLETED_PROGRESSION_TREEC_NAME">
-            <Text>SWISS_CONFEDERACY’s pride lies in its military.</Text>
+            <Text>Swiss Confederacy’s pride lies in its military.</Text>
         </Row>
         <Row Tag="LOC_SWISS_CONFEDERACY_JEC_COMPLETED_PROGRESSION_TREEC_DESCRIPTION">
             <Text>{1_reward}.</Text>
