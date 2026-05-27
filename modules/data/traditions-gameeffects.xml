@@ -2,19 +2,44 @@
 <GameEffects xmlns="GameEffects">
 	
 		<!-- RUTLISCHWUR -->
+		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+					<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+				</Requirement>
+				<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
+					<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
+				</Requirement>
+			</SubjectRequirements>
+			<Argument name="Amount">1</Argument>
+			<Argument name="ResourceType">RESOURCE_GOLD</Argument>
+		</Modifier>
+
+		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+					<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+				</Requirement>
+				<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
+					<Argument name="Tag">UNIT_CLASS_CAVALRY,UNIT_CLASS_RANGED</Argument>
+				</Requirement>
+			</SubjectRequirements>
+			<Argument name="Amount">1</Argument>
+			<Argument name="ResourceType">RESOURCE_GOLD</Argument>
+		</Modifier>
 
 		<!-- GROSS_GLOCK -->
 		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 			<Argument name="ModifierId">ATTACH_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_DESCRIPTION</String>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_DESCRIPTION</String>
 		</Modifier>
 
 		<Modifier id="ATTACH_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 			<Argument name="Adjacency_YieldChange">MountainHappiness</Argument>
-			<Argument name="Amount">2</Argument>
+			<Argument name="Amount">1</Argument>
 			<Argument name="Divisor">1</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_NAME</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_DESCRIPTION</String>
+			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_NAME</Argument>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_DESCRIPTION</String>
 		</Modifier>
 
 		<!-- VIERWALDSTATTER -->
@@ -25,16 +50,8 @@
 		</Modifier>
 
 		<!-- ZUGEWANDTE_ORTE -->
-        <Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_GOOLD_MILITARISTIC_ATTRIBUTE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_ATTRIBUTE">
-			<SubjectRequirements>
-				<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
-					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
-				</Requirement>
-			</SubjectRequirements>
-			<Argument name="YieldType">YIELD_GOLD</Argument>
-			<Argument name="Amount">1</Argument>
-			<Argument name="AttributeType">ATTRIBUTE_MILITARISTIC</Argument>
-			<String context="Summary">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION</String>
+		<Modifier id="MOD_SWISS_CONFEDERACY_JEC_ECONOMIC_VICTORY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ACTIVATE_VICTORY_POINT_TRACKER" run-once="true" permanent="true">
+			<Argument name="TrackerName">VICTORY_TRACKER_SWISS_CONFEDERACY_ECONOMIC</Argument>
 			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION</String>
 		</Modifier>
 

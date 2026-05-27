@@ -23,6 +23,12 @@
 			<Text>Mountain Tiles are workable.</Text>
 		</Row>
 
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_I_DESCRIPTION">
+			<Text>Each Gold Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6) vs Cavalry Units</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_II_DESCRIPTION">
+			<Text>Each Gold Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6) vs Cavalry Units</Text>
+		</Row>
 		<!-- Tradition -->
 
 		<!-- WARS_OF_KAPPEL -->
@@ -47,9 +53,9 @@
 			<Text>Grosse Glocke</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION">
-			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_DESCRIPTION}</Text>
+			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_DESCRIPTION}</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_DESCRIPTION">
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_DESCRIPTION">
 			<Text>+1[icon:YIELD_HAPPINESS] Happiness adjacency from mountains.</Text>
 		</Row>
 
@@ -114,7 +120,7 @@
 			<Text>Zugewandte Orte</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>Fort Towns gain[icon:YIELD_GOLD] Gold equal to your Militaristic Attribute.</Text>
+			<Text>Science buildings are worth {1_Amount} [icon:ECONOMIC_VP] GDP per turn.</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_NAME">

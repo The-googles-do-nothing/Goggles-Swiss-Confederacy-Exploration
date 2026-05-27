@@ -38,17 +38,6 @@
 		<String context="Description">LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_COMMAND_PROMOTION" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="UnitPromotionType">PROMOTION_ARMY_REDEPLOY</Argument>
-		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_MANEUVER</Argument>
-		<String context="Description">LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_COMMAND_PROMOTION_DESCRIPTION</String>
-	</Modifier>
-
 	<!-- TAGSATZUNG -->
 
 	<!-- PFAFFENBRIEF -->

@@ -131,6 +131,7 @@
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CultureToTText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
@@ -143,7 +144,6 @@
 					<Item>text/en_us/WonderText.xml</Item>
 
 					<Item>text/en_us/TutorialText.xml</Item>
-					<Item>text/en_us/VictoriesText.xml</Item>
 					<!-- Items below were generated via our loc tool. -->
 
 				</UpdateText>
@@ -312,6 +312,7 @@
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CultureToTText.xml</Item>
 					<Item>text/en_us/AmtsburgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
@@ -319,7 +320,6 @@
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/UnlockAntiquityText.xml</Item>
-					<Item>text/en_us/VictoriesText.xml</Item>
 					<!-- DLC -->
 					<Item>germania/text/en_us/UnlockGermaniaText.xml</Item>
 					<Item>friedrich-alt/text/en_us/UnlockFriedrichAltText.xml</Item>	
