@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_PRUSSIA" Kind="KIND_UNLOCK"/>
 	</Types>
 	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_RUSSIA"/>
 	</Unlocks>
 	<UnlockRewards>
-    </UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_PRUSSIA" Name="LOC_CIVILIZATION_PRUSSIA_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_PRUSSIA" UnlockRewardType="CIVILIZATION_PRUSSIA" UnlockRewardKind="KIND_CIVILIZATION"/>
+	</UnlockRewards>
 	<RequirementSets>
-
+		<Row RequirementSetId="REQSET_CIV_IS_SWISS_CONFEDERACY_JEC" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<Requirements>
-		<!-- Unlock -->
-
-		<!-- Victories -->
-		<Row RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_SWISS_CONFEDERACY_JEC" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" Inverse="true"/>
+		<Row RequirementId="REQ_CIV_IS_SWISS_CONFEDERACY_JEC" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
-		<!-- SWISS_CONFEDERACY -->
-		<!-- Victories -->
-		<Row RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_SWISS_CONFEDERACY_JEC" Name="TraitType" Value="TRAIT_SWISS_CONFEDERACY_JEC"/>
+		<Row RequirementId="REQ_CIV_IS_SWISS_CONFEDERACY_JEC" Name="CivilizationType" Value="CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
 	</RequirementArguments>
 	<RequirementSetRequirements>
-		<!-- Victories -->
-		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_MONGOLIA" RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_SWISS_CONFEDERACY_JEC"/>
+		<Row RequirementSetId="REQSET_CIV_IS_SWISS_CONFEDERACY_JEC" RequirementId="REQ_CIV_IS_SWISS_CONFEDERACY_JEC"/>
 	</RequirementSetRequirements>
 	<UnlockRequirements>
-    </UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY_JEC" RequirementSetId="REQSET_CIV_IS_SWISS_CONFEDERACY_JEC" Description="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_JEC_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_JEC_SWISS_CONFEDERACY_JEC_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_PRUSSIA" RequirementSetId="REQSET_CIV_IS_SWISS_CONFEDERACY_JEC" Description="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_JEC_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_JEC_PRUSSIA_TOOLTIP"/>
+	</UnlockRequirements>
 	<UnlockConfigurationValues>
-    </UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_PRUSSIA" ConfigurationValue="CIVILIZATION_PRUSSIA"/>
+	</UnlockConfigurationValues>
 </Database>

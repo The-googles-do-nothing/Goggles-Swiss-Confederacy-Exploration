@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
+			<Set UniqueCultureProgressionTree="TREE_CIVICS_AQ_TEST_OF_TIME" />
+		</Update>
+	</Civilizations>
+	<Traits>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_SWISS_CONFEDERACY"/>
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC_ABILITY" ModifierId="MOD_SWISS_CONFEDERACY_JEC_ECONOMIC_VICTORY"/>
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC_ABILITY" ModifierId="MOD_SWISS_CONFEDERACY_JEC_CULTURAL_VICTORY"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TraitType="TRAIT_ANACHRONISTIC_CIV" />
+	</CivilizationTraits>
+</Database>

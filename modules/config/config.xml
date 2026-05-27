@@ -17,6 +17,8 @@
 	<Civilizations>
 		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" CivilizationName="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_DESCRIPTION" CivilizationIcon="civ_sym_swiss_confederacy.png"/>
 	</Civilizations>
+
+
 	<CivilizationItems>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" Type="TRAIT_SWISS_CONFEDERACY_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_SWISS_CONFEDERACY_JEC_ABILITY_NAME" Description="LOC_TRAIT_SWISS_CONFEDERACY_JEC_ABILITY_DESCRIPTION"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" Type="UNIT_PIKE_SQUARE_JEC" Kind="KIND_UNIT" Name="LOC_UNIT_PIKE_SQUARE_JEC_NAME" Description="LOC_UNIT_PIKE_SQUARE_JEC_BASE_DESCRIPTION" Icon="ICON_UNIT_PIKE_SQUARE_JEC"/>
@@ -29,6 +31,7 @@
 	<CivilizationTags>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_TRAIT_MILITARISTIC"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_TRAIT_SCIENTIFIC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_APEX_AGE_EXPLORATION"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
 		<!-- base -->

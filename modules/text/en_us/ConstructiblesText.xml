@@ -11,7 +11,7 @@
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_TOOLTIP">
-			<Text>+1[icon:YIELD_FOOD] Food.</Text>
+			<Text>+1[icon:YIELD_FOOD] Food. Increase Wonder Science Adjacency.</Text>
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME">
@@ -23,7 +23,7 @@
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_TOOLTIP">
-			<Text>+1[icon:YIELD_FOOD] Food.</Text>
+			<Text>+1[icon:YIELD_FOOD] Food. Increase Resource Science Adjacency.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE_DESCRIPTION">

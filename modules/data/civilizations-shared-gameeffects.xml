@@ -20,18 +20,15 @@
 		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_SWISS_CONFEDERACY_DESCRIPTION</String>
 	</Modifier> 
 	 
-	<!-- ==================================================	-->
-	<!--	Wonder Bonus							-->
-	<!-- ==================================================	-->
-	<Modifier id="MOD_CIV_WONDER_PRODUCTION_SWISS_CONFEDERACY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
-				<Argument name="TraitType">TRAIT_SWISS_CONFEDERACY_JEC</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Percent">30</Argument>
-		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_SWISS_CONFEDERACY_DESCRIPTION</String>
+	<!-- ======================================================================================== -->
+
+	<!-- +2 GDP for each Science Building -->
+
+	<Modifier id="MOD_SWISS_CONFEDERACY_JEC_ECONOMIC_VICTORY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ACTIVATE_VICTORY_POINT_TRACKER" run-once="true" permanent="true">
+		<Argument name="TrackerName">VICTORY_TRACKER_SWISS_CONFEDERACY_ECONOMIC</Argument>
+	</Modifier>
+	<Modifier id="MOD_SWISS_CONFEDERACY_JEC_CULTURAL_VICTORY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ACTIVATE_VICTORY_POINT_TRACKER" run-once="true" permanent="true">
+		<Argument name="TrackerName">VICTORY_TRACKER_SWISS_CONFEDERACY_CULTURAL</Argument>
 	</Modifier>
 
-	
 </GameEffects>

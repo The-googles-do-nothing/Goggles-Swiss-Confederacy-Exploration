@@ -1,0 +1,21 @@
+<Database>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_SWISS_CONFEDERACY"/>
+		<!-- Civ Abilities -->
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_SWISS_CONFEDERACY"/>
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC_ABILITY" ModifierId="MOD_SWISS_CONFEDERACY_JEC_ECONOMIC_VICTORY"/>
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC_ABILITY" ModifierId="MOD_SWISS_CONFEDERACY_JEC_CULTURAL_VICTORY"/>
+	</TraitModifiers>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SWISS_CONFEDERACY_JEC" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SWISS_CONFEDERACY_JEC" RequirementId="REQ_PLAYER_HAS_TRAIT_SWISS_CONFEDERACY_JEC" />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_SWISS_CONFEDERACY_JEC" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_SWISS_CONFEDERACY_JEC" Name="TraitType" Value="TRAIT_SWISS_CONFEDERACY_JEC" />
+	</RequirementArguments>
+</Database>
