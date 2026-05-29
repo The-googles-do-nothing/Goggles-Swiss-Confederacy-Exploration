@@ -204,6 +204,7 @@
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/progression-trees-culture-unique-aq.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/unlocks-syncretism-aq.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -244,10 +245,10 @@
 				<UpdateDatabase>
 					<Item>data/civilizations-modern.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+					<Item>data/unlocks-syncretism-mo.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-
 		<ActionGroup id="age-exploration-persist-swiss-confederacy" scope="game" criteria="exploration-age-persist">
 			<Properties>
 				<LoadOrder>100</LoadOrder>

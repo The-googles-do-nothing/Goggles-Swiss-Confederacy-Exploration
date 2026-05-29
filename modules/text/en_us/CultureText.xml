@@ -23,13 +23,18 @@
 			<Text>Mountain Tiles are workable.</Text>
 		</Row>
 
+
+		<!-- Tradition -->
+
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_NAME">
+			<Text>Reisläufer</Text>
+		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_I_DESCRIPTION">
 			<Text>Each Gold Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6) vs Cavalry Units</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_II_DESCRIPTION">
 			<Text>Each Gold Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6) vs Cavalry Units</Text>
 		</Row>
-		<!-- Tradition -->
 
 		<!-- WARS_OF_KAPPEL -->
 		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_NAME">
@@ -120,7 +125,7 @@
 			<Text>Zugewandte Orte</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>Science buildings are worth {1_Amount} [icon:ECONOMIC_VP] GDP per turn.</Text>
+			<Text>Science buildings are worth +1 [icon:ECONOMIC_VP] GDP per turn.</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_NAME">

@@ -3,7 +3,7 @@
 		<!-- BUILDING_STIFTSARCHIV_JEC -->
 	<Modifier id="MOD_STIFTSARCHIV_JEC_GREATWORKS_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
 		<Argument name="YieldType">YIELD_SCIENCE</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION</Argument>
 	</Modifier>
 

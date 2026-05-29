@@ -11,7 +11,7 @@
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_TOOLTIP">
-			<Text>+1[icon:YIELD_FOOD] Food. Increase Wonder Science Adjacency.</Text>
+			<Text>+1[icon:YIELD_FOOD] Food.</Text>
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME">
@@ -23,7 +23,7 @@
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_TOOLTIP">
-			<Text>+1[icon:YIELD_FOOD] Food. Increase Resource Science Adjacency.</Text>
+			<Text>+1[icon:YIELD_CULTURE] Culture.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE_DESCRIPTION">
@@ -47,7 +47,7 @@
 			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP">
-			<Text>+1 [icon:YIELD_SCIENCE] Science. Has 1 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Work[/TIP] slots. +1 [icon:YIELD_SCIENCE] Science from [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Works[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP].</Text>
+			<Text>+1 [icon:YIELD_SCIENCE] Science. +1 [icon:YIELD_SCIENCE] Science from each [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Works[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP].</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">

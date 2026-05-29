@@ -32,6 +32,7 @@
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="HAPPINESS"/>
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="UNIQUE"/>
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="AGELESS"/>
+		<Row Type="BUILDING_TEMPLE" Tag="GREATWORK"/>
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="RELIGIOUS"/>
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="SCIENCE"/>
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="UNIQUE"/>
@@ -74,10 +75,10 @@
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="MountainHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="NaturalWonderHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="WonderHappiness"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="ResourceScience"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="WonderScience"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="StiftsarchivGreatWorkScience"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
+		<Row ID="StiftsarchivGreatWorkScience" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentConstructibleTag="GREATWORK"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>
