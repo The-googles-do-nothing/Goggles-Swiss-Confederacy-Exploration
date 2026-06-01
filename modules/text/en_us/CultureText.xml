@@ -61,7 +61,7 @@
 			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness adjacency from mountains.</Text>
+			<Text>+2[icon:YIELD_HAPPINESS] Happiness adjacency from mountains.</Text>
 		</Row>
 
 		<!-- GOTTHARD_PASS -->

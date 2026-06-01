@@ -11,6 +11,18 @@
 			<Text>Swiss Confederacy Modernization</Text>
 		</Row>
 
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_SYNCRETISM_ANTIQUITY_NAME">
+			<Text>Gross Glock I</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_SYNCRETISM_ANTIQUITY_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness adjacency from mountains.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_SYNCRETISM_MODERN_NAME">
+			<Text>Gross Glock II</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_SYNCRETISM_MODERN_DESCRIPTION">
+			<Text>+3[icon:YIELD_HAPPINESS] Happiness adjacency from mountains.</Text>
+		</Row>
     </EnglishText>
 </Database>
 
