@@ -32,7 +32,7 @@
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="HAPPINESS"/>
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="UNIQUE"/>
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="AGELESS"/>
-		<Row Type="BUILDING_TEMPLE" Tag="GREATWORK"/>
+		<Row Type="BUILDING_KLOSTER_JEC" Tag="GREATWORK"/>
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="RELIGIOUS"/>
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="SCIENCE"/>
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="UNIQUE"/>
@@ -99,6 +99,7 @@
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" Percent="5" />
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" Percent="5" />
+	</Constructible_BuildingCostProgressions>
 	<ConstructibleModifiers>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" ModifierId="MOD_STIFTSARCHIV_JEC_GREATWORKS_SCIENCE"/>
 	</ConstructibleModifiers>
