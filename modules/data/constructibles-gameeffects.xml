@@ -6,6 +6,21 @@
 		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION</Argument>
 	</Modifier>
+	<Modifier id="MOD_STIFTSARCHIV_JEC_GREATWORKS_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION</Argument>
+	</Modifier>
+	<Modifier id="MOD_STIFTSARCHIV_JEC_GREATWORKS_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION</Argument>
+	</Modifier>
+	<Modifier id="MOD_STIFTSARCHIV_JEC_GREATWORKS_DIPLOMACY" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION</Argument>
+	</Modifier>
 
 	<!-- FURSTABTEI -->
 	<Modifier id="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">

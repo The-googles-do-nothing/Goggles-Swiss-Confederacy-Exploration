@@ -29,8 +29,8 @@
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" Type="BUILDING_STIFTSARCHIV_JEC" Kind="KIND_BUILDING" Name="LOC_BUILDING_STIFTSARCHIV_JEC_NAME" Description="LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION" Icon="ICON_BUILDING_STIFTSARCHIV_JEC"/>
 	</CivilizationItems>
 	<CivilizationTags>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_TRAIT_MILITARISTIC"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_TRAIT_SCIENTIFIC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_TRAIT_CULTURAL"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_TRAIT_ECONOMIC"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_APEX_AGE_EXPLORATION"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>

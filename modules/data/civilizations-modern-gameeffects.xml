@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_TOURISM" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ACTIVATE_VICTORY_POINT_TRACKER" run-once="true" permanent="true">
+		<Argument name="TrackerName">VICTORY_TRACKER_SWISS_CONFEDERACY_MOUNTAINS</Argument>
+	</Modifier>
+
+</GameEffects>

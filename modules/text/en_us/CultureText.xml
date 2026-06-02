@@ -125,7 +125,7 @@
 			<Text>Zugewandte Orte</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>Science buildings are worth +1 [icon:ECONOMIC_VP] GDP per turn.</Text>
+			<Text>Culture buildings are worth +1 [icon:ECONOMIC_VP] GDP per turn.</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_NAME">

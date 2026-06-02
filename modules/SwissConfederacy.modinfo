@@ -244,6 +244,7 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/civilizations-modern-gameeffects.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
 					<Item>data/unlocks-syncretism-mo.xml</Item>
 				</UpdateDatabase>
