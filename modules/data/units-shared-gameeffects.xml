@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ABILITY_REISLAUFER_I -->
+	<Modifier id="MOD_ABILITY_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">6</Argument>
+		<String context="Preview">LOC_REISLAUFER_COMBAT_PREVIEW</String>
+	</Modifier>
+	<Modifier id="MOD_ABILITY_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">6</Argument>
+		<String context="Preview">LOC_REISLAUFER_COMBAT_PREVIEW</String>
+	</Modifier>
+
+
+</GameEffects>

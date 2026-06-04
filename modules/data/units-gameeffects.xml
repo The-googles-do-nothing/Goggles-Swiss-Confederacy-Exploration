@@ -20,25 +20,10 @@
 		<Argument name="Amount">10</Argument>
 		<String context="Preview">LOC_ABILITY_PIKE_SQUARE_PREVIEW</String>
 	</Modifier>
-	<!-- ABILITY_REISLAUFER_I -->
-	<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
-			<SubjectRequirements>
-				<Requirement type="REQUIREMENT_OPPONENT_IS_INDEPENDENT"/>
-			</SubjectRequirements>
-			<Argument name="Amount">1</Argument>
-			<Argument name="ResourceType">RESOURCE_GOLD</Argument>
-			<String context="Preview">LOC_ABILITY_INDEPENDENT_COMBAT_MINOR_PENALTY_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
-		<Argument name="Amount">1</Argument>
-		<Argument name="ResourceType">RESOURCE_GOLD</Argument>
-		<String context="Preview">LOC_COMBAT_PREVIEW_NUMBER_CIV_TRADITIONS_BONUS_DESC</String>
-	</Modifier>
 
-	<Modifier id="ATTACH_NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<Modifier id="MOD_ABILITY_WARS_OF_KAPPLE_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">3</Argument>
 		<String context="Preview">LOC_WARS_OF_KAPPLE_COMBAT_PREVIEW</String>
 	</Modifier>
 	
-
 </GameEffects>

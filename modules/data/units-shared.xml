@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="ABILITY_REISLAUFER_I" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_REISLAUFER_II" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_REISLAUFER_I" UnitClassType="UNIT_CLASS_COMBAT"/>
+		<Row UnitAbilityType="ABILITY_REISLAUFER_II" UnitClassType="UNIT_CLASS_COMBAT"/>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_REISLAUFER_I" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_REISLAUFER_II" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_REISLAUFER_I" ModifierId="MOD_ABILITY_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I"/>
+		<Row UnitAbilityType="ABILITY_REISLAUFER_II" ModifierId="MOD_ABILITY_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II"/>
+	</UnitAbilityModifiers>
+
+
+</Database>

@@ -180,6 +180,10 @@
 					<Item>data/victories.xml</Item>
 
 					<Item>data/unlocks-exploration.xml</Item>
+
+					<Item>data/units-shared.xml</Item>
+					<Item>data/units-shared-gameeffects.xml</Item>
+
                 </UpdateDatabase>
                 <UpdateVisualRemaps>
                     <Item>data/visual-remap.xml</Item>
