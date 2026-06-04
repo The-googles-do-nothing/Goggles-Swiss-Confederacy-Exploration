@@ -47,17 +47,17 @@
 			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP">
-			<Text>+1 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_SCIENCE] Science, +1 [icon:YIELD_CULTURE], +1 [icon:YIELD_PRODUCTION] Production from each [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Works[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP].</Text>
+			<Text>+1 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_CULTURE] Culture from [icon:YIELD_HAPPINESS] Happiness [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">
 			<Text>Fürstabtei (Abby)</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_DESCRIPTION">
-			<Text>+2[icon:YIELD_CULTURE] Culture to Tundra Mountains, +2[icon:YIELD_FOOD] Food to Mountains</Text>
+			<Text>+2[icon:YIELD_CULTURE] Culture to Tundra Mountains, +2[icon:YIELD_PRODUCTION] Production to Mountains</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_TOOLTIP">
-			<Text>+2[icon:YIELD_CULTURE] Culture to Tundra Mountains, +2[icon:YIELD_FOOD] Food to Mountains</Text>
+			<Text>+2[icon:YIELD_CULTURE] Culture to Tundra Mountains, +2[icon:YIELD_PRODUCTION] Production to Mountains</Text>
 		</Row>
 
 

@@ -75,8 +75,10 @@
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="MountainHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="NaturalWonderHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="WonderHappiness"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="StiftsarchivWildcardHappinessCulture"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
+		<Row ID="StiftsarchivWildcardHappinessCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentConstructibleTag="HAPPINESS"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>
@@ -85,6 +87,7 @@
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
+
 	</Constructible_WildcardAdjacencies>
 	<Constructible_Logistics>
 
@@ -99,9 +102,6 @@
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" Percent="5" />
 	</Constructible_BuildingCostProgressions>
 	<ConstructibleModifiers>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" ModifierId="MOD_STIFTSARCHIV_JEC_GREATWORKS_SCIENCE"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" ModifierId="MOD_STIFTSARCHIV_JEC_GREATWORKS_CULTURE"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" ModifierId="MOD_STIFTSARCHIV_JEC_GREATWORKS_PRODUCTION"/>
 	</ConstructibleModifiers>
 	<UniqueQuarters>
 		<Row UniqueQuarterType="QUARTER_FURSTABTEI" BuildingType1="BUILDING_KLOSTER_JEC" BuildingType2="BUILDING_STIFTSARCHIV_JEC" Name="LOC_QUARTER_FURSTABTEI_NAME" Description="LOC_QUARTER_FURSTABTEI_DESCRIPTION" Tooltip="LOC_QUARTER_FURSTABTEI_TOOLTIP" TraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>

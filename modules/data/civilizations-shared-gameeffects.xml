@@ -5,21 +5,6 @@
 	<!--	Civ-Specific Traits							-->
 	<!-- ==================================================	-->
 	
-
-
-	<!-- ==================================================	-->
-	<!--	Civ Trees							-->
-	<!-- ==================================================	-->
-	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_SWISS_CONFEDERACY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
-				<Argument name="TraitType">TRAIT_SWISS_CONFEDERACY_JEC</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="ProgressionTreeType">TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC</Argument>
-		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_SWISS_CONFEDERACY_DESCRIPTION</String>
-	</Modifier> 
-	 
 	<!-- ======================================================================================== -->
 
 

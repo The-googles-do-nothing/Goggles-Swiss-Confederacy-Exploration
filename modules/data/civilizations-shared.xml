@@ -73,7 +73,7 @@
 		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC30"/>
 	</CityNames>
 	<StartBiasBiomes>
-		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" BiomeType="BIOME_TUNDRA" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" BiomeType="BIOME_TUNDRA" Score="25"/>
 	</StartBiasBiomes>
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TerrainType="TERRAIN_MOUNTAIN" Score="100"/>

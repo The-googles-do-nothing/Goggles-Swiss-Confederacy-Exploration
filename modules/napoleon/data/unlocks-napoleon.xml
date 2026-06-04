@@ -4,5 +4,8 @@
 	<UnlockRequirements>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY_JEC" RequirementSetId="REQSET_LEADER_IS_NAPOLEON" Description="LOC_UNLOCK_PLAY_AS_NAPOLEON_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_NAPOLEON_SWISS_CONFEDERACY_TOOLTIP"/>
     </UnlockRequirements>
-
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_NAPOLEON" Civilization="CIVILIZATION_SWISS_CONFEDERACY_JEC" Priority="2"/>
+	</LeaderCivPriorities>
 </Database>

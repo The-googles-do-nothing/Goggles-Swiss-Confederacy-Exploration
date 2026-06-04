@@ -2,30 +2,21 @@
 <GameEffects xmlns="GameEffects">
 	
 		<!-- RUTLISCHWUR -->
-		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 			<SubjectRequirements>
 				<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 					<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
 				</Requirement>
-				<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
-					<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
-				</Requirement>
 			</SubjectRequirements>
-			<Argument name="Amount">1</Argument>
-			<Argument name="ResourceType">RESOURCE_GOLD</Argument>
+			<Argument name="AbilityType">ABILITY_REISLAUFER_I</Argument>
 		</Modifier>
-
-		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 			<SubjectRequirements>
 				<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 					<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
 				</Requirement>
-				<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
-					<Argument name="Tag">UNIT_CLASS_CAVALRY,UNIT_CLASS_RANGED</Argument>
-				</Requirement>
 			</SubjectRequirements>
-			<Argument name="Amount">1</Argument>
-			<Argument name="ResourceType">RESOURCE_GOLD</Argument>
+			<Argument name="AbilityType">ABILITY_REISLAUFER_II</Argument>
 		</Modifier>
 
 		<!-- GROSS_GLOCK -->

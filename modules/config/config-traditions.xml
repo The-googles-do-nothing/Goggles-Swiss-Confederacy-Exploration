@@ -28,8 +28,8 @@
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC" Cost="1200" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_NAME" IconString="cult_swiss_confederacy_jec" />
 		
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC" Cost="2000" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_NAME" IconString="cult_swiss_confederacy_jec" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_SWISS_CONFEDERACY_JEC_ORIGINS" ProgressionTree="TREE_CIVICS_AQ_TEST_OF_TIME" Cost="150" Name="LOC_NODE_CIVIC_AQ_SWISS_CONFEDERACY_JEC_ORIGINS_NAME" IconString="cult_SWISS_CONFEDERACY" CanSteal="false"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_SWISS_CONFEDERACY_JEC_MODERNIZATION" ProgressionTree="TREE_CIVICS_MO_TEST_OF_TIME" Cost="2000" Name="LOC_NODE_CIVIC_MO_SWISS_CONFEDERACY_JEC_MODERNIZATION_NAME" IconString="cult_SWISS_CONFEDERACY" CanSteal="false"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_SWISS_CONFEDERACY_JEC_ORIGINS" ProgressionTree="TREE_CIVICS_AQ_TEST_OF_TIME" Cost="150" Name="LOC_NODE_CIVIC_AQ_SWISS_CONFEDERACY_JEC_ORIGINS_NAME" IconString="cult_swiss_confederacy_jec" CanSteal="false"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_SWISS_CONFEDERACY_JEC_MODERNIZATION" ProgressionTree="TREE_CIVICS_MO_TEST_OF_TIME" Cost="2000" Name="LOC_NODE_CIVIC_MO_SWISS_CONFEDERACY_JEC_MODERNIZATION_NAME" IconString="cult_swiss_confederacy_jec" CanSteal="false"/>
 	
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>

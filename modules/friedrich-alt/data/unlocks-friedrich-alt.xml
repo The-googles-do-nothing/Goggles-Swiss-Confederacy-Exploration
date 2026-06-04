@@ -4,5 +4,8 @@
 	<UnlockRequirements>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY_JEC" RequirementSetId="REQSET_LEADER_IS_FRIEDRICH_ALT" Description="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_SWISS_CONFEDERACY_TOOLTIP"/>
     </UnlockRequirements>
-
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_FRIEDRICH_ALT" Civilization="CIVILIZATION_SWISS_CONFEDERACY_JEC" Priority="2"/>
+	</LeaderCivPriorities>
 </Database>

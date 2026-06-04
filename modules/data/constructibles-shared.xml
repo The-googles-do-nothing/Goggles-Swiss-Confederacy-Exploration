@@ -31,8 +31,8 @@
 
 	</Wonders>
 	<TypeTags>
-
 		<!-- Civ Unique Improvements -->
+		<Row Type="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Tag="CULTURE"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Civ Unique Improvements -->
@@ -58,7 +58,7 @@
 	</AgeConstructibleDefaultMaintenances>
 	<Constructible_YieldChanges>
 		<!-- Civ Unique Improvements -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_CULTURE" YieldChange="1"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
