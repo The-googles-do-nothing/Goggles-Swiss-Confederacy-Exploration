@@ -9,8 +9,37 @@
 		</Modifier>
 
 		<!-- RUTLISCHWUR -->
+		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+					<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+				</Requirement>
+			</SubjectRequirements>
+			<Argument name="Amount">1</Argument>
+			<Argument name="ResourceType">RESOURCE_GOLD</Argument>
+		</Modifier>
 
-		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+					<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+				</Requirement>
+			</SubjectRequirements>
+			<Argument name="Amount">1</Argument>
+			<Argument name="ResourceType">RESOURCE_GOLD</Argument>
+		</Modifier>
+
+		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II_DISTANT_LANDS" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+					<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+				</Requirement>
+			</SubjectRequirements>
+			<Argument name="Amount">1</Argument>
+			<Argument name="ResourceType">RESOURCE_GOLD_DISTANT_LANDS</Argument>
+		</Modifier>
+
+		<!-- <Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 			<Argument name="AbilityType">ABILITY_REISLAUFER_I</Argument>
 			<String context="Description">LOC_TRADITION_INFERIOR_TACTICS_DESCRIPTION</String>
 		</Modifier>
@@ -18,7 +47,7 @@
 		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 			<Argument name="AbilityType">ABILITY_REISLAUFER_II</Argument>
 			<String context="Description">LOC_TRADITION_INFERIOR_TACTICS_DESCRIPTION</String>
-		</Modifier>
+		</Modifier> -->
 
 		<!-- GROSS_GLOCK -->
 		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_MOUNTAIN_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">

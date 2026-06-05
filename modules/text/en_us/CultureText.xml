@@ -34,7 +34,7 @@
 			<Text>Reisläufer II</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_II_DESCRIPTION">
-			<Text>Each Gold Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6)</Text>
+			<Text>Each Gold Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6).Each Gold Distant Lands Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6).</Text>
 		</Row>
 		<Row Tag="LOC_REISLAUFER_COMBAT_PREVIEW">
 			<Text>+{1_Amount} Reisläufer</Text>
