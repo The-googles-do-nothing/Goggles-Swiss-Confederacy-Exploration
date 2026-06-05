@@ -94,7 +94,7 @@
 			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_LAKE_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_LAKE_DESCRIPTION">
-			<Text>Lakes have a adjacency for [icon:YIELD_FOOD]Food and [icon:YIELD_HAPPINESS]Happiness.</Text>
+			<Text>Buidlings have an adjacency with Lakes.</Text>
 		</Row>
 
 		<!-- TAGSATZUNG -->

@@ -67,7 +67,11 @@
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Row ID="SwissConfederacyLakeHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
-		<Row ID="SwissConfederacyLakeFood" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyLakeFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyLakeCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyLakeGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyLakeScience" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyLakeDiplomacy" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>
@@ -79,6 +83,10 @@
 		<!-- Civ Uniques -->
 		<Row YieldChangeId="SwissConfederacyLakeHappiness" RequiresActivation="true" ConstructibleTag="HAPPINESS" />
 		<Row YieldChangeId="SwissConfederacyLakeFood" RequiresActivation="true" ConstructibleTag="FOOD" />
+		<Row YieldChangeId="SwissConfederacyLakeCulture" RequiresActivation="true" ConstructibleTag="CULTURE" />
+		<Row YieldChangeId="SwissConfederacyLakeGold" RequiresActivation="true" ConstructibleTag="GOLD" />
+		<Row YieldChangeId="SwissConfederacyLakeScience" RequiresActivation="true" ConstructibleTag="SCIENCE" />
+		<Row YieldChangeId="SwissConfederacyLakeDiplomacy" RequiresActivation="true" ConstructibleTag="DIPLOMACY" />
 	</Constructible_WildcardAdjacencies>
 	<Constructible_Logistics>
 
