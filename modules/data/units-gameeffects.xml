@@ -17,7 +17,7 @@
 				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">10</Argument>
+		<Argument name="Amount">5</Argument>
 		<String context="Preview">LOC_ABILITY_PIKE_SQUARE_PREVIEW</String>
 	</Modifier>
 

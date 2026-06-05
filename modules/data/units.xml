@@ -57,14 +57,14 @@
 	</Units>
 	<Unit_Stats>
 		<Row UnitType="UNIT_PIKE_SQUARE_JEC" Combat="35"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_JEC_2" Combat="45"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_JEC_3" Combat="50"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_JEC_2" Combat="40"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_JEC_3" Combat="45"/>
 	</Unit_Stats>
 	<Unit_Costs>
 		<!-- Civ Unique Military -->
 		<Row UnitType="UNIT_PIKE_SQUARE_JEC" YieldType="YIELD_PRODUCTION" Cost="130"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_JEC_2" YieldType="YIELD_PRODUCTION" Cost="190"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_JEC_3" YieldType="YIELD_PRODUCTION" Cost="240"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_JEC_2" YieldType="YIELD_PRODUCTION" Cost="170"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_JEC_3" YieldType="YIELD_PRODUCTION" Cost="220"/>
 		<!-- Civ Unique Civilian -->
 		<!-- AMTSBURGERMEISTER -->
 		<Row UnitType="UNIT_AMTSBURGERMEISTER_JEC" YieldType="YIELD_PRODUCTION" Cost="130"/>
@@ -115,7 +115,7 @@
 		<Row Type="UNIT_PIKE_SQUARE_JEC_2" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_PIKE_SQUARE_JEC_2" Tag="UNIT_CLASS_MELEE"/>
 		<Row Type="UNIT_PIKE_SQUARE_JEC_2" Tag="UNIT_CLASS_INFANTRY"/>
-		<Row Type="UNIT_PIKE_SQUARE_JEC_2" Tag="UNIT_CLASS_PIKE_SQUARE_ELITE"/>
+		<Row Type="UNIT_PIKE_SQUARE_JEC_2" Tag="UNIT_CLASS_PIKE_SQUARE"/>
 
 		<Row Type="UNIT_PIKE_SQUARE_JEC_3" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_PIKE_SQUARE_JEC_3" Tag="UNIT_CLASS_MELEE"/>
