@@ -63,7 +63,7 @@
 	<Constructible_YieldChanges>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldType="YIELD_CULTURE" YieldChange="4"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<!-- Civ Unique Buildings -->
@@ -75,10 +75,10 @@
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="MountainHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="NaturalWonderHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="WonderHappiness"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="StiftsarchivWildcardHappinessCulture"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="StiftsarchivGoldCulture"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-		<Row ID="StiftsarchivWildcardHappinessCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentConstructibleTag="HAPPINESS"/>
+		<Row ID="StiftsarchivGoldCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentConstructibleTag="GOLD"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>

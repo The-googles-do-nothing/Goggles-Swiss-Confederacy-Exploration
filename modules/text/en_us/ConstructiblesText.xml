@@ -47,7 +47,7 @@
 			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP">
-			<Text>+1 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_CULTURE] Culture from [icon:YIELD_HAPPINESS] Happiness [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]</Text>
+			<Text>+4 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_CULTURE] Culture from [icon:YIELD_GOLD] Gold [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">
