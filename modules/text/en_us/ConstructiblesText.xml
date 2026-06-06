@@ -41,23 +41,23 @@
 		</Row>
 
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_NAME">
-			<Text>Stiftsarchiv</Text>
+			<Text>Stiftsarchiv (State Archive)</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION">
 			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP">
-			<Text>+4 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_CULTURE] Culture from [icon:YIELD_GOLD] Gold [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]</Text>
+			<Text>+1 [icon:YIELD_CULTURE] Culture. Has 1 Great Work slot.</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">
 			<Text>Fürstabtei (Abby)</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_DESCRIPTION">
-			<Text>+2[icon:YIELD_CULTURE] Culture to Tundra Mountains, +2[icon:YIELD_PRODUCTION] Production to Mountains</Text>
+			<Text>+1[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_PRODUCTION] Production to Mountains</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_TOOLTIP">
-			<Text>+2[icon:YIELD_CULTURE] Culture to Tundra Mountains, +2[icon:YIELD_PRODUCTION] Production to Mountains</Text>
+			<Text>+1[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_PRODUCTION] Production to Mountains</Text>
 		</Row>
 
 

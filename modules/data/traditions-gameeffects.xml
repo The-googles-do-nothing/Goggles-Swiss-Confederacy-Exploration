@@ -39,28 +39,18 @@
 			<Argument name="ResourceType">RESOURCE_GOLD_DISTANT_LANDS</Argument>
 		</Modifier>
 
-		<!-- <Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_I" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-			<Argument name="AbilityType">ABILITY_REISLAUFER_I</Argument>
-			<String context="Description">LOC_TRADITION_INFERIOR_TACTICS_DESCRIPTION</String>
-		</Modifier>
-
-		<Modifier id="MOD_REISLAUFER_INFANTRY_COMBAT_STRENGTH_II" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-			<Argument name="AbilityType">ABILITY_REISLAUFER_II</Argument>
-			<String context="Description">LOC_TRADITION_INFERIOR_TACTICS_DESCRIPTION</String>
-		</Modifier> -->
-
 		<!-- GROSS_GLOCK -->
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_MOUNTAIN_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-			<Argument name="ModifierId">ATTACH_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_MOUNTAIN_HAPPINESS</Argument>
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_MOUNTAIN_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+			<Argument name="ModifierId">ATTACH_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_MOUNTAIN_CULTURE</Argument>
 			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_DESCRIPTION</String>
 		</Modifier>
 
-		<Modifier id="ATTACH_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_MOUNTAIN_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-			<Argument name="Adjacency_YieldChange">MountainHappiness</Argument>
+		<Modifier id="ATTACH_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_MOUNTAIN_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+			<Argument name="Adjacency_YieldChange">MountainCulture</Argument>
 			<Argument name="Amount">2</Argument>
 			<Argument name="Divisor">1</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_NAME</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_HAPPINESS_DESCRIPTION</String>
+			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_CULTURE_NAME</Argument>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_CULTURE_DESCRIPTION</String>
 		</Modifier>
 
 		<!-- VIERWALDSTATTER -->
@@ -78,31 +68,11 @@
 
 		<!-- Test of Time -->
 		<!-- Syncretism -->
-		<Modifier id="MOD_SWISS_CONFEDERACY_SYNCRETISM_ANTIQUITY_MOUNTAIN_HAPPINESS_ANTIQUITY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-			<Argument name="ModifierId">ATTACH_MOD_SWISS_CONFEDERACY_SYNCRETISM_ANTIQUITY_MOUNTAIN_HAPPINESS_ANTIQUITY</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_JEC_SYNCRETISM_ANTIQUITY_DESCRIPTION</String>
+		<Modifier id="MOD_SWISS_CONFEDERACY_SYNCRETISM_ANTIQUITY_MOUNTAIN_HAPPINESS_ANTIQUITY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+			<Argument name="ConstructibleAdjacency">SwissConfederacySyncretismMountainHappinessI</Argument>
 		</Modifier>
-
-		<Modifier id="ATTACH_MOD_SWISS_CONFEDERACY_SYNCRETISM_ANTIQUITY_MOUNTAIN_HAPPINESS_ANTIQUITY" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-			<Argument name="Adjacency_YieldChange">MountainHappiness</Argument>
-			<Argument name="Amount">1</Argument>
-			<Argument name="Divisor">1</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_JEC_SYNCRETISM_ANTIQUITY_NAME</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_JEC_SYNCRETISM_ANTIQUITY_DESCRIPTION</String>
+		<Modifier id="MOD_SWISS_CONFEDERACY_SYNCRETISM_MODERN_MOUNTAIN_HAPPINESS_MODERN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+			<Argument name="ConstructibleAdjacency">SwissConfederacySyncretismMountainHappinessII</Argument>
 		</Modifier>
-		<Modifier id="MOD_SWISS_CONFEDERACY_SYNCRETISM_MODERN_MOUNTAIN_HAPPINESS_MODERN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-			<Argument name="ModifierId">ATTACH_MOD_SWISS_CONFEDERACY_SYNCRETISM_MODERN_MOUNTAIN_HAPPINESS_MODERN</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_SYNCRETISM_MODERN_DESCRIPTION</String>
-		</Modifier>
-
-		<Modifier id="ATTACH_MOD_SWISS_CONFEDERACY_SYNCRETISM_MODERN_MOUNTAIN_HAPPINESS_MODERN" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-			<Argument name="Adjacency_YieldChange">MountainHappiness</Argument>
-			<Argument name="Amount">3</Argument>
-			<Argument name="Divisor">1</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_SYNCRETISM_MODERN_NAME</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_SYNCRETISM_MODERN_DESCRIPTION</String>
-		</Modifier>
-
-
 
 </GameEffects>

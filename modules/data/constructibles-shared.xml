@@ -72,9 +72,12 @@
 		<Row ID="SwissConfederacyLakeGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 		<Row ID="SwissConfederacyLakeScience" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 		<Row ID="SwissConfederacyLakeDiplomacy" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<!-- SYNCRETISM -->
+		<Row ID="SwissConfederacySyncretismMountainHappinessI" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN" />
+		<Row ID="SwissConfederacySyncretismMountainHappinessII" YieldType="YIELD_HAPPINESS" YieldChange="2" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN" />
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
-	</Constructible_WarehouseYields>
+	</Constructible_WarehouseYields>s
 
 	<Warehouse_YieldChanges>
  	</Warehouse_YieldChanges>
@@ -87,6 +90,10 @@
 		<Row YieldChangeId="SwissConfederacyLakeGold" RequiresActivation="true" ConstructibleTag="GOLD" />
 		<Row YieldChangeId="SwissConfederacyLakeScience" RequiresActivation="true" ConstructibleTag="SCIENCE" />
 		<Row YieldChangeId="SwissConfederacyLakeDiplomacy" RequiresActivation="true" ConstructibleTag="DIPLOMACY" />
+		<!-- SYNCRETISM -->
+		<Row YieldChangeId="SwissConfederacySyncretismMountainHappinessI" RequiresActivation="true" ConstructibleTag="HAPPINESS" />
+		<Row YieldChangeId="SwissConfederacySyncretismMountainHappinessII" RequiresActivation="true" ConstructibleTag="HAPPINESS" />
+
 	</Constructible_WildcardAdjacencies>
 	<Constructible_Logistics>
 

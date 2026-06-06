@@ -37,6 +37,7 @@
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="CULTURE"/>
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="UNIQUE"/>
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="AGELESS"/>
+		<Row Type="BUILDING_KLOSTER_JEC" Tag="GREATWORK"/>
 		<!-- Civ Unique Improvements -->
 	</TypeTags>
 	<Constructible_ValidDistricts>
@@ -63,7 +64,7 @@
 	<Constructible_YieldChanges>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldType="YIELD_CULTURE" YieldChange="3"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<!-- Civ Unique Buildings -->
@@ -75,10 +76,12 @@
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="MountainHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="NaturalWonderHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldChangeId="WonderHappiness"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="StiftsarchivScienceCulture"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="MountainCulture"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="NaturalWonderCulture"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="WonderCulture"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-		<Row ID="StiftsarchivScienceCulture" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentConstructibleTag="SCIENCE"/>
+
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>
