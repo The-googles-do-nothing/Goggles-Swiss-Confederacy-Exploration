@@ -3,10 +3,10 @@
 	<LeaderSyncretismUnlocks>
 		<Row LeaderType="LEADER_CHARLEMAGNE" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
 		<Row LeaderType="LEADER_FRIEDRICH" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
+		<Row LeaderType="LEADER_FRIEDRICH_ALT" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
 		<Row LeaderType="LEADER_NAPOLEON" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
 	</LeaderSyncretismUnlocks>
 	<CivilizationSyncretismUnlocks>
-		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
 		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" UnlockCivilizationType="CIVILIZATION_ROME" />
 		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" UnlockCivilizationType="CIVILIZATION_FRENCH_EMPIRE" />
 		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" UnlockCivilizationType="CIVILIZATION_PRUSSIA" />

@@ -24,15 +24,18 @@
 
 	<Improvements>
 		<!-- Civ Unique Improvements -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_JEC_2"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_JEC_2"/>
+		<!-- <Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_JEC_2"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_JEC_2"/> -->
+
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>
+
 	</Improvements>
 	<Wonders>
 
 	</Wonders>
 	<TypeTags>
 		<!-- Civ Unique Improvements -->
-		<Row Type="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Tag="CULTURE"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Civ Unique Improvements -->

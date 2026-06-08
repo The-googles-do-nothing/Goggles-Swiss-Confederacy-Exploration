@@ -30,7 +30,7 @@
 	</CivilizationItems>
 	<CivilizationTags>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_TRAIT_CULTURAL"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_TRAIT_ECONOMIC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_TRAIT_MILITARISTIC"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TagType="TAG_APEX_AGE_EXPLORATION"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
@@ -41,7 +41,7 @@
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_NAPOLEON" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_NAPOLEON_SWISS_CONFEDERACY_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_NAPOLEON_ALT" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_SWISS_CONFEDERACY_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH_ALT" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_SWISS_CONFEDERACY_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-	
+
 	</LeaderCivilizationBias>
 	<LeaderUnlocks>
 		<!-- Base -->
@@ -52,7 +52,7 @@
 		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_NAPOLEON" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SWISS_CONFEDERACY_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME" Description="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_DESCRIPTION" Icon="CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
 		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_NAPOLEON_ALT" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SWISS_CONFEDERACY_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME" Description="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_DESCRIPTION" Icon="CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
 		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH_ALT" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SWISS_CONFEDERACY_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME" Description="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_DESCRIPTION" Icon="CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
-		
+
 	</LeaderUnlocks>
 
 	<CivilizationUnlocks>

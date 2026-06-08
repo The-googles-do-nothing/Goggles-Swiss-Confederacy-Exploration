@@ -86,9 +86,6 @@
             </Actions>
 		</ActionGroup>
 		<ActionGroup id="base-game-main-swiss-confederacy-germania" scope="game" criteria="goggles-civ-germania-enable">
-            <Properties>
-				<LoadOrder>100</LoadOrder>
-			</Properties>
 			<Actions>
                 <UpdateDatabase>
 					<Item>germania/data/unlocks-germania-antiquity.xml</Item>
@@ -147,6 +144,7 @@
 					<Item>icons/lsbg_swiss_confederacy_jec_720</Item>
 					<Item>icons/lsbg_swiss_confederacy_jec_1080</Item>
 					<Item>icons/bg-panel-swiss_confederacy_jec.png</Item>
+					<Item>icons/bg-panel-swiss_confederacy_jec</Item>
 					<Item>icons/bg-card-swiss_confederacy_jec.png</Item>
 					<Item>icons/buildicon_kloster_jec.png</Item>
 					<Item>icons/buildicon_stiftsarchiv_jec.png</Item>
@@ -279,6 +277,7 @@
 					<Item>icons/lsbg_swiss_confederacy_jec_720</Item>
 					<Item>icons/lsbg_swiss_confederacy_jec_1080</Item>
 					<Item>icons/bg-panel-swiss_confederacy_jec.png</Item>
+					<Item>icons/bg-panel-swiss_confederacy_jec</Item>
 					<Item>icons/bg-card-swiss_confederacy_jec.png</Item>
 					<Item>icons/buildicon_kloster_jec.png</Item>
 					<Item>icons/buildicon_stiftsarchiv_jec.png</Item>

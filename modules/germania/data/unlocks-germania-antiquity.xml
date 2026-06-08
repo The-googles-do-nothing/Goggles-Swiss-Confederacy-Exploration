@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+	<CivilizationSyncretismUnlocks>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
+	</CivilizationSyncretismUnlocks>
 	<UnlockRequirements>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY_JEC" RequirementSetId="REQSET_CIV_IS_GERMANIA_JEC" Description="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GERMANIA_SWISS_CONFEDERACY_DESCRIPTION"/>
 	</UnlockRequirements>
-
 </Database>
