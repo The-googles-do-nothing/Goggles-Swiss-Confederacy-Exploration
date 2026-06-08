@@ -35,9 +35,10 @@
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="GREATWORK"/>
 		<Row Type="BUILDING_KLOSTER_JEC" Tag="RELIGIOUS"/>
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="CULTURE"/>
+		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="SCIENCE"/>
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="UNIQUE"/>
 		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="AGELESS"/>
-		<Row Type="BUILDING_KLOSTER_JEC" Tag="GREATWORK"/>
+		<Row Type="BUILDING_STIFTSARCHIV_JEC" Tag="GREATWORK"/>
 		<!-- Civ Unique Improvements -->
 	</TypeTags>
 	<Constructible_ValidDistricts>
@@ -63,13 +64,15 @@
 	</AgeConstructibleDefaultMaintenances>
 	<Constructible_YieldChanges>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldType="YIELD_HAPPINESS" YieldChange="6"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_KLOSTER_JEC" YieldType="YIELD_GOLD" Amount="3"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldType="YIELD_HAPPINESS" Amount="3"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
@@ -79,6 +82,10 @@
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="MountainCulture"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="NaturalWonderCulture"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="WonderCulture"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="QuarterCulture"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="ResourceScience"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="WonderScience"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="QuarterScience"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 
@@ -96,8 +103,8 @@
 
 	</Constructible_Logistics>
 	<Constructible_Plunders>
-		<Row ConstructibleType="BUILDING_KLOSTER_JEC" PlunderType="PLUNDER_GOLD" Amount="40"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" PlunderType="PLUNDER_SCIENCE" Amount="40"/>
+		<Row ConstructibleType="BUILDING_KLOSTER_JEC" PlunderType="PLUNDER_GOLD" Amount="80"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" PlunderType="PLUNDER_CULTURE" Amount="80"/>
 	</Constructible_Plunders>
 	<Constructible_BuildingCostProgressions>
 		<!-- Civ Unique Buildings -->
