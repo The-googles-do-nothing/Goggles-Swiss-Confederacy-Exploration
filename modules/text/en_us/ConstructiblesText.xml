@@ -47,7 +47,7 @@
 			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP">
-			<Text>+1 [icon:YIELD_CULTURE] Culture. Has 1 Great Work slot.</Text>
+			<Text>+1 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_SCIENCE] Science. Has 1 Great Work slot.</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">

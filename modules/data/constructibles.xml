@@ -82,10 +82,8 @@
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="MountainCulture"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="NaturalWonderCulture"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="WonderCulture"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="QuarterCulture"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="ResourceScience"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="WonderScience"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="QuarterScience"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 

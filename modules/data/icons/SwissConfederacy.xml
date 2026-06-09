@@ -47,11 +47,21 @@
             <Context>DEFAULT</Context>
         </Row>
         <Row>
+            <ID>IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/impicon_stadel_im_sommer.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/impicon_stadel_im_winter.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
             <ID>BUILDING_STIFTSARCHIV_JEC</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_stiftsarchiv_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-
+        
         <Row>
             <ID>UNIT_PIKE_SQUARE_JEC</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square_jec.png</Path>
