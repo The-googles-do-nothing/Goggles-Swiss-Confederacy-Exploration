@@ -30,7 +30,5 @@
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_FRENCH_EMPIRE" RequirementSetId="REQSET_CIV_IS_SWISS_CONFEDERACY_JEC" Description="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_JEC_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_JEC_FRENCH_EMPIRE_TOOLTIP"/>
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_PRUSSIA" ConfigurationValue="CIVILIZATION_PRUSSIA"/>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_FRENCH_EMPIRE" ConfigurationValue="CIVILIZATION_FRENCH_EMPIRE"/>
 	</UnlockConfigurationValues>
 </Database>

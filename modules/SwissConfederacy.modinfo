@@ -167,6 +167,7 @@
 
 					<Item>data/unlocks-base-standard.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/unlocks-exploration.xml</Item>
 					<Item>data/unlocks-syncretism.xml</Item>
 
 					<Item>data/loading-info-exploration.xml</Item>
@@ -176,9 +177,6 @@
 					
 					<!-- <Item>data/ai_exploration.xml</Item> -->
 					<Item>data/victories.xml</Item>
-
-					<Item>data/unlocks-exploration.xml</Item>
-
 					<Item>data/units-shared.xml</Item>
 					<Item>data/units-shared-gameeffects.xml</Item>
 
@@ -188,7 +186,7 @@
                 </UpdateVisualRemaps>
             </Actions>
         </ActionGroup>
-		<ActionGroup id="age-antiquity-main-swiss-confederacy" scope="game" criteria="antiquity-age-current">
+		<ActionGroup id="antiquity-age-current-swiss-confederacy" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateArt>
 
@@ -199,7 +197,7 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-exploration-current-swiss-confederacy" scope="game" criteria="exploration-age-current">
+		<ActionGroup id="exploration-age-current-swiss-confederacy" scope="game" criteria="exploration-age-current">
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-exploration.xml</Item>
@@ -225,7 +223,17 @@
 
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-modern-main-swiss-confederacy" scope="game" criteria="modern-age-current">
+		<ActionGroup id="exploration-age-persist-swiss-confederacy" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
+					<Item>data/wonders.xml</Item>
+					<Item>data/wonders-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="modern-age-current-swiss-confederacy" scope="game" criteria="modern-age-current">
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-modern.xml</Item>
@@ -234,26 +242,6 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-exploration-persist-swiss-confederacy" scope="game" criteria="exploration-age-persist">
-			<Actions>
-				<UpdateArt>
-				</UpdateArt>
-				<UpdateDatabase>
-					<Item>data/constructibles.xml</Item>
-					<Item>data/constructibles-gameeffects.xml</Item>
-					<Item>data/wonders.xml</Item>
-					<Item>data/wonders-gameeffects.xml</Item>
-				</UpdateDatabase>
-				<ImportFiles>
-				</ImportFiles>
-				<UpdateIcons>
-				</UpdateIcons>
-				<UpdateText>
-
-				</UpdateText>
-			</Actions>
-		</ActionGroup>
-
 		<!-- goggles_civ_swiss_confederacy -->
 		<ActionGroup id="shell-swiss-confederacy" scope="shell" criteria="always">
 			<Actions>

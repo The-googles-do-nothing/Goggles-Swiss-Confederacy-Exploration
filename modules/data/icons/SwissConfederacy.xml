@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Database>
+    <Icons>
+        <Row ID="CIVILIZATION_SWISS_CONFEDERACY_JEC" Context="DEFAULT"/>
+        <Row ID="CIVILIZATION_SWISS_CONFEDERACY_JEC" Context="BACKGROUND"/>
+        <Row ID="CIVILIZATION_SWISS_CONFEDERACY_JEC" Context="BACKGROUND_VERT"/>
+    </Icons>
     <IconDefinitions>
         <Row>
             <ID>ICON_CIVILIZATION_SWISS_CONFEDERACY_JEC</ID>
@@ -11,6 +16,16 @@
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_sym_swiss_confederacy_jec</Path>
             <Context>DEFAULT</Context>
         </Row>
+        <Row>
+            <ID>civ_sym_swiss_confederacy_jec</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_sym_swiss_confederacy_jec</Path>
+        </Row>
+		<Row>
+			<ID>CIVILIZATION_SWISS_CONFEDERACY_JEC</ID>
+			<Context>BACKGROUND_VERT</Context>
+			<Path>fs://game/goggles_civ_swiss_confederacy/art/bg-card-lsbg_swiss_confederacy_jec_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
 		<Row>
 			<ID>CIVILIZATION_SWISS_CONFEDERACY_JEC</ID>
 			<Context>BACKGROUND</Context>

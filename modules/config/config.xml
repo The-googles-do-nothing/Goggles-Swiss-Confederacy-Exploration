@@ -15,7 +15,7 @@
 
 	</LeaderCivilizationBias>
 	<Civilizations>
-		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" CivilizationName="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_DESCRIPTION" CivilizationIcon="civ_sym_swiss_confederacy.png"/>
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" CivilizationName="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_DESCRIPTION" CivilizationIcon="civ_sym_swiss_confederacy_jec"/>
 	</Civilizations>
 
 
