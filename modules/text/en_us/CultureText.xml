@@ -132,8 +132,12 @@
 			<Text>Culture buildings and Improvements are worth +1 [icon:ECONOMIC_VP] GDP per turn.</Text>
 		</Row>
 		
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_NAME">
-			<Text>Eidgenossenschaft</Text>
+		<!-- Tradition -->
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GRAND_COUNCIL_OF_GENEVA_NAME">
+			<Text>Grand Council of Geneva</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GRAND_COUNCIL_OF_GENEVA_DESCRIPTION">
+			<Text>Science buildings and Improvements are worth +1 [icon:ECONOMIC_VP] GDP per turn.</Text>
 		</Row>
 
 

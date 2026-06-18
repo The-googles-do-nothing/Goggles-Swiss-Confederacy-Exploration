@@ -24,12 +24,6 @@
 			<Text>+3[icon:YIELD_HAPPINESS] Happiness adjacency from mountains.</Text>
 		</Row>
 
-		<!-- Tradition -->
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GRAND_COUNCIL_OF_GENEVA_NAME">
-			<Text>Grand Council of Geneva</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GRAND_COUNCIL_OF_GENEVA_DESCRIPTION">
-			<Text>Allows the construction of the Kantonalbank Unique Building. [n]The Kantonalbank provides +9[icon:YIELD_GOLD] Gold.</Text>
-		</Row>
+
     </EnglishText>
 </Database>
