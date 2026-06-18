@@ -76,7 +76,13 @@
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_stiftsarchiv_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-        
+        <Row>
+            <ID>BUILDING_KANTONALBANK_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kantonalbank_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
+        <!-- Units -->
         <Row>
             <ID>UNIT_PIKE_SQUARE_JEC</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square_jec.png</Path>

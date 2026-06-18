@@ -15,7 +15,13 @@
             <From>BUILDING_STIFTSARCHIV_JEC</From>
             <To>BUILDING_UNIVERSITY</To>
         </Row>
-
+        <Row>
+            <ID>REMAP_KANTONALBANK</ID>
+            <DisplayName>LOC_BUILDING_KANTONALBANK_JEC_NAME</DisplayName>
+            <Kind>BUILDING</Kind>
+            <From>BUILDING_KANTONALBANK_JEC</From>
+            <To>BUILDING_BANK</To>
+        </Row>
         <!-- subei -->
         <Row>
             <ID>REMAP_UNIT_PIKE_SQUARE_JEC</ID>

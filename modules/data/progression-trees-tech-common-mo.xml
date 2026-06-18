@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+	<ProgressionTreeNodeUnlocks>
+		<!--  -->
+		<Row ProgressionTreeNodeType="NODE_TECH_MO_ELECTRICITY" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_KANTONALBANK_JEC" UnlockDepth="1" RequiredTraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>
+	</ProgressionTreeNodeUnlocks>
+
+</Database>

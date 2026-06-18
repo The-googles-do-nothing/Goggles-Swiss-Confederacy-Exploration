@@ -148,6 +148,7 @@
 					<Item>icons/bg-card-swiss_confederacy_jec.png</Item>
 					<Item>icons/buildicon_kloster_jec.png</Item>
 					<Item>icons/buildicon_stiftsarchiv_jec.png</Item>
+					<Item>icons/buildicon_kantonalbank_jec.png</Item>
 					<Item>icons/wondericon_zytglogge.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
@@ -174,7 +175,7 @@
 
 					<Item>data/constructibles-shared.xml</Item>
 					<Item>data/constructibles-shared-gameeffects.xml</Item>
-					
+
 					<!-- <Item>data/ai_exploration.xml</Item> -->
 					<Item>data/victories.xml</Item>
 					<Item>data/units-shared.xml</Item>
@@ -239,6 +240,7 @@
 					<Item>data/civilizations-modern.xml</Item>
 					<Item>data/civilizations-modern-gameeffects.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+					<Item>data/progression-trees-tech-common-mo.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -269,6 +271,7 @@
 					<Item>icons/bg-card-swiss_confederacy_jec.png</Item>
 					<Item>icons/buildicon_kloster_jec.png</Item>
 					<Item>icons/buildicon_stiftsarchiv_jec.png</Item>
+					<Item>icons/buildicon_kantonalbank_jec.png</Item>
 					<Item>icons/wondericon_zytglogge.png</Item>
                 </ImportFiles>
                 <UpdateIcons>

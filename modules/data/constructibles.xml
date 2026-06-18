@@ -13,8 +13,8 @@
 	</AgeGrowthBalances>
 	<Constructibles>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER_JEC" Name="LOC_BUILDING_KLOSTER_JEC_NAME" Description="LOC_BUILDING_KLOSTER_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_KLOSTER_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" Name="LOC_BUILDING_STIFTSARCHIV_JEC_NAME" Description="LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="280" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_KLOSTER_JEC" Name="LOC_BUILDING_KLOSTER_JEC_NAME" Description="LOC_BUILDING_KLOSTER_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_KLOSTER_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES_CITY" CostProgressionParam1="100"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" Name="LOC_BUILDING_STIFTSARCHIV_JEC_NAME" Description="LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="280" Population="1" Age="AGE_EXPLORATION" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES_CITY" CostProgressionParam1="100"/>
 	</Constructibles>
 	<Buildings>
 		<!-- Civ Unique Buildings -->
@@ -116,13 +116,17 @@
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->
-		<Row ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
-		<Row ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN"/>
+		<Row ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_CULTURE"/>
+		<Row ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_SCIENCE"/>
+		<Row ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_FOOD"/>
+		<Row ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_PRODUCTION"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
-		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN"/>
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_CULTURE"/>
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_SCIENCE"/>
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_FOOD"/>
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_PRODUCTION"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<!-- Antique Revived Buildings -->
