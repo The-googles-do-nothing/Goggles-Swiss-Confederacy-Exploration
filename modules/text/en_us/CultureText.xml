@@ -129,7 +129,7 @@
 			<Text>Zugewandte Orte</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>Culture buildings and Improvements are worth +1 [icon:ECONOMIC_VP] GDP per turn.</Text>
+			<Text>Culture buildings are worth +2 [icon:ECONOMIC_VP] GDP per turn when you have no [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliances[/TIP].</Text>
 		</Row>
 		
 		<!-- Tradition -->
@@ -137,7 +137,7 @@
 			<Text>Grand Council of Geneva</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GRAND_COUNCIL_OF_GENEVA_DESCRIPTION">
-			<Text>Science buildings and Improvements are worth +1 [icon:ECONOMIC_VP] GDP per turn.</Text>
+			<Text>Science buildings are worth +2 [icon:ECONOMIC_VP] GDP per turn when you have no [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliances[/TIP].</Text>
 		</Row>
 
 

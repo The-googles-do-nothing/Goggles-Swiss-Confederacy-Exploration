@@ -6,7 +6,7 @@
 				<Argument name="UniqueQuarterType">QUARTER_ROHSTOFFHANDEL</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">5</Argument>
+		<Argument name="Amount">1</Argument>
 	</Modifier>
 
 </GameEffects>
