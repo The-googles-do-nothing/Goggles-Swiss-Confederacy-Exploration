@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>  
+	<Types>
+		<!-- Modern -->
+		<Row Type="BUILDING_KANTONALBANK_JEC" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<TypeQuotes>
+
+	</TypeQuotes>
+	<AgeGrowthBalances>
+
+	</AgeGrowthBalances>
+	<Constructibles>
+		<!-- Modern -->
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" Name="LOC_BUILDING_KANTONALBANK_JEC_NAME" Description="LOC_BUILDING_KANTONALBANK_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_KANTONALBANK_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="600" Population="1" Age="AGE_MODERN"  CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES_CITY" CostProgressionParam1="100"/>
+	</Constructibles>
+	<Buildings>
+		<!-- Modern -->
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC"  Movable="false" />
+	</Buildings>
+	<Improvements>
+	</Improvements>
+	<Wonders>
+	</Wonders>
+	<TypeTags>
+		<!-- Modern -->
+		<Row Type="BUILDING_KANTONALBANK_JEC" Tag="GOLD"/>
+		<Row Type="BUILDING_KANTONALBANK_JEC" Tag="UNIQUE"/>
+		<Row Type="BUILDING_KANTONALBANK_JEC" Tag="AGELESS"/>
+	</TypeTags>
+	<Constructible_ValidDistricts>
+		<!-- Modern -->
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" DistrictType="DISTRICT_URBAN"/>
+	</Constructible_ValidDistricts>
+	<District_FreeConstructibles>
+	</District_FreeConstructibles>
+	<Constructible_ValidBiomes>
+	</Constructible_ValidBiomes>
+	<Constructible_InvalidAdjacentBiomes>
+	</Constructible_InvalidAdjacentBiomes>
+	<Constructible_ValidTerrains>
+	</Constructible_ValidTerrains>
+	<AgeConstructibleDefaultYields>
+	</AgeConstructibleDefaultYields>
+	<AgeConstructibleDefaultMaintenances>
+	</AgeConstructibleDefaultMaintenances>
+	<Constructible_YieldChanges>
+		<!-- Modern -->
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" YieldType="YIELD_GOLD" YieldChange="9"/>
+	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+		<!-- Modern -->
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" YieldType="YIELD_HAPPINESS" Amount="4"/>
+	</Constructible_Maintenances>
+	<Constructible_Adjacencies>
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" YieldChangeId="RiverGold"/>
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" YieldChangeId="CoastGold"/>
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" YieldChangeId="WonderGold"/>
+
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+		<!-- Modern -->
+	</Adjacency_YieldChanges>
+	<Constructible_WarehouseYields>
+	</Constructible_WarehouseYields>s
+	<Warehouse_YieldChanges>
+ 	</Warehouse_YieldChanges>
+	<Constructible_WildcardAdjacencies>
+	</Constructible_WildcardAdjacencies>
+	<Constructible_Logistics>
+	</Constructible_Logistics>
+	<Constructible_Plunders>
+		<!-- Modern -->
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" PlunderType="PLUNDER_GOLD" Amount="360"/>
+	</Constructible_Plunders>
+	<Constructible_BuildingCostProgressions>
+		<!-- Modern -->
+		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" Percent="5" />
+	</Constructible_BuildingCostProgressions>
+	<ConstructibleModifiers>
+	</ConstructibleModifiers>
+	<UniqueQuarters>
+		<Row UniqueQuarterType="QUARTER_ROHSTOFFHANDEL" BuildingType1="BUILDING_KANTONALBANK_JEC" BuildingType2="BUILDING_LABORATORY" Name="LOC_QUARTER_ROHSTOFFHANDEL_NAME" Description="LOC_QUARTER_ROHSTOFFHANDEL_DESCRIPTION" Tooltip="LOC_QUARTER_ROHSTOFFHANDEL_TOOLTIP" TraitType="TRAIT_SWISS_CONFEDERACY_JEC" />
+	</UniqueQuarters>
+	<GameModifiers>
+		<!-- Unique Quarter modifiers are game-wide -->
+		<Row ModifierId="MOD_ROHSTOFFHANDEL_RESOURCE_CAP"/>
+	</GameModifiers>
+	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
+	<UniqueQuarterModifiers>
+		<Row UniqueQuarterType="QUARTER_ROHSTOFFHANDEL" ModifierId="MOD_ROHSTOFFHANDEL_RESOURCE_CAP"/>
+	</UniqueQuarterModifiers>
+	<Constructible_Advisories>
+	</Constructible_Advisories>
+
+</Database>

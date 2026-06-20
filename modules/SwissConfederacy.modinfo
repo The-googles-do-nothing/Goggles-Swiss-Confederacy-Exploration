@@ -241,6 +241,8 @@
 					<Item>data/civilizations-modern-gameeffects.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
 					<Item>data/progression-trees-tech-common-mo.xml</Item>
+					<Item>data/constructibles-mo.xml</Item>
+					<Item>data/constructibles-mo-gameeffects.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
