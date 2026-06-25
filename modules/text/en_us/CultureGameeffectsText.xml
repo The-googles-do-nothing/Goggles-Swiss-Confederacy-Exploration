@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- EXPLORATION -->
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_UNFRIENDLY_RELIGIOUS_STRENGTH_DESCRIPTION">
+			<Text>Units gain +3 Combat Strength in Unfriendly Settlements that follow this Religion.</Text>
+		</Row>
+
+		<Row Tag="LOC_SWISS_CONFEDERACY_UNFRIENDLY_RELIGIOUS_STRENGTH_PREVIEW">
+			<Text>+{1_Amount} Wars of Kappel</Text>
+		</Row>
+
+		<Row Tag="MOD_SWISS_CONFEDERACY_WORKER_CAP_DESCRIPTION">
+			<Text>+1 Specialist Limit in all Cities</Text>
+		</Row>
+
+		<!-- MODERN -->
+		<Row Tag="LOC_SWISS_CONFEDERACY_TRADE_ROUTE_RANGE_DESCRIPTION">
+			<Text>Any city with at least 1 mountain tile have +10 trade route range.</Text>
+		</Row>
+
+		<Row Tag="LOC_SWISS_CONFEDERACY_ADJUST_RESOURCE_CAP_DESCRIPTION">
+			<Text>Any city with at least 1 mountain tile has +1 resource capacity.</Text>
+		</Row>
+		
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_RESOURCE_SCIENCE_TOOLTIP">
+			<Text>+{1_Amount}[icon:YIELD_SCIENCE] Science adjacency from resouces.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_ECSTATIC_RESOURCE_SCIENCE_DESCRIPTION">
+			<Text>Ecstatic setttlements have +5[icon:YIELD_SCIENCE] Science adjacency from resouces.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_JOYOUS_RESOURCE_SCIENCE_DESCRIPTION">
+			<Text>Joyuse setttlements have +3[icon:YIELD_SCIENCE] Science adjacency from resouces.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_HAPPY_RESOURCE_SCIENCE_DESCRIPTION">
+			<Text>Happy setttlements have +1[icon:YIELD_SCIENCE] Science adjacency from resouces.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_GRANT_VICTORY_TRACKER_POINTS_DESCRIPTION">
+			<Text>Grants [B]250 [icon:ECONOMIC_VP][/B] [TIP:LOC_PEDIA_CONCEPTS_GDP_TOOLTIP]GDP[/TIP]. Repeatable.</Text>
+		</Row>
+
+</EnglishText>
+</Database>

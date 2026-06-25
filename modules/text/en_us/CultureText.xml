@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-
-		<!-- ==================================================	-->
-		<!--	Germania							-->
-		<!-- ==================================================	-->
 		<Row Tag="LOC_TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC_NAME">
 			<Text>Swiss Confederacy Civics</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_SWISS_CONFEDERACY_JEC_ORIGINS_NAME">
+			<Text>Swiss Confederacy Origins</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_MO_SWISS_CONFEDERACY_JEC_MODERNIZATION_NAME">
+			<Text>Swiss Confederacy Modernization</Text>
+		</Row>
+
+		<Row Tag="LOC_TREE_CIVICS_MO_SWISS_CONFEDERACY_JEC_NAME">
+			<Text>Swiss Confederacy Modern Civics</Text>
 		</Row>
 
 		<!-- RUTLISCHWUR -->
@@ -14,7 +20,7 @@
 			<Text>Rütlischwur</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR_QUOTE">
-			<Text>the people of the valley of Uri, the democracy of the valley of Schwiz, and the community of the mountaineers of the Lower Valley</Text>
+			<Text>Wir wollen sein ein einzig Volk von Brüdern, in keiner Not uns trennen und Gefahr. Wir wollen frei sein, wie die Väter waren, eher den Tod, als in der Knechtschaft leben."</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR_QUOTE_AUTHOR">
 			<Text>Federal Charter of 1291</Text>
@@ -23,80 +29,28 @@
 			<Text>Mountain Tiles are workable.</Text>
 		</Row>
 
-		<!-- Tradition -->
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_I_NAME">
-			<Text>Reisläufer I</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_I_DESCRIPTION">
-			<Text>Each Gold Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6) vs Independents</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_II_NAME">
-			<Text>Reisläufer II</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_REISLAUFER_II_DESCRIPTION">
-			<Text>Each Gold Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6).Each Gold Distant Lands Resource provides +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6).</Text>
-		</Row>
-		<Row Tag="LOC_REISLAUFER_COMBAT_PREVIEW">
-			<Text>+{1_Amount} Reisläufer</Text>
-		</Row>
-		
 		<!-- WARS_OF_KAPPEL -->
 		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_NAME">
 			<Text>Wars of Kappel</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPEL_DESCRIPTION">
+		<Row Tag="LOC_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_QUOTE">
 			<Text>Our confidence in Christ does not make us lazy, negligent or careless, but, on the contrary, it awakens us, urges us on and makes us active in living righteous lives and doing good. There is no self-confidence to compare with this</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPEL_QUOTE_AUTHOR">
 			<Text>Ulrich Zwingli</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH_DESCRIPTION">
-			<Text>Units gain +3 Combat Strength in Unfriendly Settlements that follow this Religion.</Text>
-		</Row>
-		<Row Tag="LOC_WARS_OF_KAPPLE_COMBAT_PREVIEW">
-			<Text>+{1_Amount} Wars of Kappel</Text>
-		</Row>
 
-		<!-- Tradition -->
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_NAME">
-			<Text>Grosse Glocke</Text>
+		<!-- BUND_VON_BRUNNEN -->
+		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_BUND_VON_BRUNNEN_NAME">
+			<Text>Bund von Brunnen</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION">
-			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_CULTURE_DESCRIPTION}</Text>
+		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_BUND_VON_BRUNNEN_QUOTE">
+			<Text>Gegenseitige Hilfe, Übereinkünfte zur Kontrolle, der Bundesbrief</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_MOUNTAIN_CULTURE_DESCRIPTION">
-			<Text>+2[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
-		</Row>
-
-		<!-- GOTTHARD_PASS -->
-		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_NAME">
-			<Text>Gotthard Pass</Text>
-		</Row>
-		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_QUOTE">
-			<Text>King of Mountain Passes</Text>
-		</Row>
-		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_QUOTE_AUTHOR">
+		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_BUND_VON_BRUNNEN_QUOTE_AUTHOR">
 			<Text>The Swiss</Text>
 		</Row>
-		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION">
-			<Text>Any city with at least 1 mountain tile have +5 trade route range.</Text>
-		</Row>
-
-		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_COMMAND_PROMOTION_DESCRIPTION">
-			<Text>Army Commanders gains the Regiments promotion for free.</Text>
-		</Row>
 		
-		<!-- Tradition -->
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_VIERWALDSTATTER_NAME">
-			<Text>Vierwaldstätter</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_VIERWALDSTATTER_DESCRIPTION">
-			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_VIERWALDSTATTER_LAKE_DESCRIPTION}</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_VIERWALDSTATTER_LAKE_DESCRIPTION">
-			<Text>Buidlings have an adjacency with Lakes.</Text>
-		</Row>
-
 		<!-- TAGSATZUNG -->
 		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_TAGSATZUNG_NAME">
 			<Text>Tagsatzung</Text>
@@ -107,8 +61,6 @@
 		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_TAGSATZUNG_QUOTE_AUTHOR">
 			<Text>Friedrich Schiller</Text>
 		</Row>
-		<!-- Tradition -->
-
 
 		<!-- PFAFFENBRIEF -->
 		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_NAME">
@@ -120,24 +72,27 @@
 		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_AUTHOR">
 			<Text>Priests’ Charter</Text>
 		</Row>
-		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP_DESCRIPTION">
-			<Text>+1 Specialist Limit in all Cities</Text>
+
+		<!-- MODERN -->
+		<!-- GOTTHARD_PASS -->
+		<Row Tag="LOC_NODE_CIVIC_MO_SWISS_CONFEDERACY_GOTTHARD_PASS_NAME">
+			<Text>Gotthard Pass</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_NO_SWISS_CONFEDERACY_GOTTHARD_PASS_QUOTE">
+			<Text>King of Mountain Passes</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_MO_SWISS_CONFEDERACY_GOTTHARD_PASS_QUOTE_AUTHOR">
+			<Text>The Swiss</Text>
 		</Row>
 
-		<!-- Tradition -->
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_NAME">
-			<Text>Zugewandte Orte</Text>
+		<Row Tag="LOC_NODE_CIVIC_MO_SWISS_CONFEDERACY_GEISIGES_EIGENTUM_NAME">
+			<Text>Geistiges Eigentum</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>Culture buildings are worth +2 [icon:ECONOMIC_VP] GDP per turn when you have no [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliances[/TIP].</Text>
+		<Row Tag="LOC_NODE_CIVIC_MO_SWISS_CONFEDERACY_GEISIGES_EIGENTUM_QUOTE">
+			<Text>Es gibt nichts, was absolut neu ist. Es ist ein neues Zusammenfügen von alten Elementen.</Text>
 		</Row>
-		
-		<!-- Tradition -->
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GRAND_COUNCIL_OF_GENEVA_NAME">
-			<Text>Grand Council of Geneva</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GRAND_COUNCIL_OF_GENEVA_DESCRIPTION">
-			<Text>Science buildings are worth +2 [icon:ECONOMIC_VP] GDP per turn when you have no [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliances[/TIP].</Text>
+		<Row Tag="LOC_NODE_CIVIC_MO_SWISS_CONFEDERACY_GEISIGES_EIGENTUM_QUOTE_AUTHOR">
+			<Text>Mark Twain</Text>
 		</Row>
 
 

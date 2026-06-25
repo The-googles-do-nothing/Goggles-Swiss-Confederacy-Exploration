@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- GOTTHARD_PASS -->
+	<Modifier id="MOD_SWISS_CONFEDERACY_TRADE_ROUTE_RANGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_TERRAIN">
+				<Argument name="TerrainType">TERRAIN_MOUNTAIN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">10</Argument>
+		<Argument name="DomainType">DOMAIN_LAND</Argument>
+		<String context="Description">LOC_SWISS_CONFEDERACY_TRADE_ROUTE_RANGE_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_SWISS_CONFEDERACY_ADJUST_RESOURCE_CAP" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_TERRAIN">
+				<Argument name="TerrainType">TERRAIN_MOUNTAIN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_SWISS_CONFEDERACY_ADJUST_RESOURCE_CAP_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_SWISS_CONFEDERACY_GRANT_VICTORY_TRACKER_POINTS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_VICTORY_TRACKER_POINTS" permanent="true">
+		<Argument name="VictoryType">VICTORY_ECONOMIC_MODERN</Argument>
+		<Argument name="Points" type="ScaleByGameSpeed">250</Argument>
+		<Argument name="ItemName">LOC_NODE_CIVIC_MO_SWISS_CONFEDERACY_GEISIGES_EIGENTUM_NAME</Argument>
+		<Argument name="ReplacePoints">true</Argument>
+		<Argument name="TypeData">CULTURE</Argument>
+		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_GRANT_VICTORY_TRACKER_POINTS_DESCRIPTION</String>
+	</Modifier>
+
+</GameEffects>

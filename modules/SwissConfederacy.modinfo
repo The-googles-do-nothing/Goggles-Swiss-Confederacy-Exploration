@@ -116,7 +116,8 @@
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/CultureToTText.xml</Item>
+					<Item>text/en_us/CultureTraditionsText.xml</Item>
+					<Item>text/en_us/CultureGameeffectsText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
@@ -126,6 +127,7 @@
 					<Item>text/en_us/AmtsburgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
+					<Item>text/en_us/ConstructiblesModernText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
 
 					<Item>text/en_us/TutorialText.xml</Item>
@@ -240,6 +242,7 @@
 					<Item>data/civilizations-modern.xml</Item>
 					<Item>data/civilizations-modern-gameeffects.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+					<Item>data/progression-trees-culture-unique-mo-gameeffects.xml</Item>
 					<Item>data/progression-trees-tech-common-mo.xml</Item>
 					<Item>data/constructibles-mo.xml</Item>
 					<Item>data/constructibles-mo-gameeffects.xml</Item>
@@ -256,6 +259,7 @@
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
 					<Item>config/config-traditions.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy_jec</Item>
@@ -274,6 +278,7 @@
 					<Item>icons/buildicon_kloster_jec.png</Item>
 					<Item>icons/buildicon_stiftsarchiv_jec.png</Item>
 					<Item>icons/buildicon_kantonalbank_jec.png</Item>
+					<Item>icons/buildicon_handelsunternehme_jec.png</Item>
 					<Item>icons/wondericon_zytglogge.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
@@ -285,8 +290,10 @@
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
+					<Item>text/en_us/ConstructiblesModernText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/CultureToTText.xml</Item>
+					<Item>text/en_us/CultureTraditionsText.xml</Item>
+					<Item>text/en_us/CultureGameeffectsText.xml</Item>
 					<Item>text/en_us/AmtsburgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>

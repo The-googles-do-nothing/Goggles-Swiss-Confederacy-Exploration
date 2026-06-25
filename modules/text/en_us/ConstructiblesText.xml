@@ -59,27 +59,5 @@
 		<Row Tag="LOC_QUARTER_FURSTABTEI_TOOLTIP">
 			<Text>+1[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_PRODUCTION] Production to Mountains</Text>
 		</Row>
-
-		<Row Tag="LOC_BUILDING_KANTONALBANK_JEC_NAME">
-			<Text>Kantonalbank</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_KANTONALBANK_JEC_DESCRIPTION">
-			<Text>+9 [icon:YIELD_GOLD] Gold.</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_KANTONALBANK_JEC_TOOLTIP">
-			<Text>+9 [icon:YIELD_GOLD] Gold.</Text>
-		</Row>
-
-		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_NAME">
-			<Text>Rohstoffhandel (Commodity Trading)</Text>
-		</Row>
-		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_DESCRIPTION">
-			<Text>+1[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_PRODUCTION] Production to Mountains</Text>
-		</Row>
-		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_TOOLTIP">
-			<Text>+1[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_PRODUCTION] Production to Mountains</Text>
-		</Row>
- 
-
 	</EnglishText>
 </Database>

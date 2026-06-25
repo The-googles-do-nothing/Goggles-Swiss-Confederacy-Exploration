@@ -10,12 +10,8 @@
 		<!-- Full Civs -->
 		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME" FullName="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_FULLNAME" Adjective="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_ADJECTIVE" Age="AGE_EXPLORATION"/>
 	</LegacyCivilizations>
-	<LegacyCivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>
-	</LegacyCivilizationTraits>
 	<Traits>
 		<Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC" InternalOnly="true"/>
-		<!-- <Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC_2" InternalOnly="true"/> -->
 	</Traits>
 	<LegacyLeaderCivPriorities>
 		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC"/>

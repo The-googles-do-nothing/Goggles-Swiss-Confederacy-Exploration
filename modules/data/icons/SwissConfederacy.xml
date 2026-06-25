@@ -57,11 +57,6 @@
         </Row>
         <!-- constructables -->
         <Row>
-            <ID>BUILDING_KLOSTER_JEC</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kloster_jec.png</Path>
-            <Context>DEFAULT</Context>
-        </Row>
-        <Row>
             <ID>IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/impicon_stadel_im_sommer.png</Path>
             <Context>DEFAULT</Context>
@@ -69,6 +64,11 @@
         <Row>
             <ID>IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/impicon_stadel_im_winter.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>BUILDING_KLOSTER_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kloster_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
@@ -81,7 +81,11 @@
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kantonalbank_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-
+        <Row>
+            <ID>BUILDING_HANDELSUNTERNEHME_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_handelsunternehme_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
         <!-- Units -->
         <Row>
             <ID>UNIT_PIKE_SQUARE_JEC</ID>

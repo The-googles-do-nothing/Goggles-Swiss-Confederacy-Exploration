@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Swiss Confederacy Names-->
+		<Row Tag="LOC_BUILDING_KANTONALBANK_JEC_NAME">
+			<Text>Kantonalbank</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KANTONALBANK_JEC_DESCRIPTION">
+			<Text>+5 [icon:YIELD_GOLD] Gold, +4 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_HAPPINESS] Happines on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP].</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KANTONALBANK_JEC_TOOLTIP">
+			<Text>+1 [icon:YIELD_HAPPINESS] Happines on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP].</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_HANDELSUNTERNEHME_JEC_NAME">
+			<Text>Handelsunternehme (Trading Company)</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HANDELSUNTERNEHME_JEC_DESCRIPTION">
+			<Text>+5 [icon:YIELD_PRODUCTION] Production, +4 [icon:YIELD_FOOD] Food. +2[icon:YIELD_HappINESS] per imported resource, +1[icon:YIELD_HappINESS] per local resource.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HANDELSUNTERNEHME_JEC_TOOLTIP">
+			<Text>+2[icon:YIELD_HappINESS] per imported resource, +1[icon:YIELD_HappINESS] per local resource.</Text>
+		</Row>
+
+		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_NAME">
+			<Text>Rohstoffhandel (Commodity Trading)</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_DESCRIPTION">
+			<Text>+4[icon:YIELD_GOLD] Gold to Tundra Mountains, +2[icon:YIELD_GOLD] Gold to Mountains</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_TOOLTIP">
+			<Text>+4[icon:YIELD_GOLD] Gold to Tundra Mountains, +2[icon:YIELD_GOLD] Gold to Mountains</Text>
+		</Row>
+	</EnglishText>
+</Database>

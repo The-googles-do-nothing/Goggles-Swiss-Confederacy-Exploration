@@ -124,9 +124,9 @@
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
 		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_CULTURE"/>
-		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_SCIENCE"/>
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS"/>
 		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_FOOD"/>
-		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_PRODUCTION"/>
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<!-- Antique Revived Buildings -->

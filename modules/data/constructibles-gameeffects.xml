@@ -13,23 +13,23 @@
 
 	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="YieldType">YIELD_CULTURE</Argument>
-		<Argument name="Amount">1</Argument>
+		<Argument name="Amount">2</Argument>
 		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</Argument>
 		<String context="Description">LOC_QUARTER_FURSTABTEI_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_SCIENCE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+	<Modifier id="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_SCIENCE</Argument>
+		<Argument name="ModifierId">ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS</Argument>
 	</Modifier>
 
-	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="YieldType">YIELD_SCIENCE</Argument>
-		<Argument name="Amount">1</Argument>
+	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">4</Argument>
 		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</Argument>
 		<String context="Description">LOC_QUARTER_FURSTABTEI_DESCRIPTION</String>
 	</Modifier>
@@ -46,23 +46,23 @@
 
 	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_FOOD" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount">1</Argument>
+		<Argument name="Amount">2</Argument>
 		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</Argument>
 		<String context="Description">LOC_QUARTER_FURSTABTEI_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_PRODUCTION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+	<Modifier id="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_PRODUCTION</Argument>
+		<Argument name="ModifierId">ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS</Argument>
 	</Modifier>
 
-	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
-		<Argument name="Amount">1</Argument>
+	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
 		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</Argument>
 		<String context="Description">LOC_QUARTER_FURSTABTEI_DESCRIPTION</String>
 	</Modifier>

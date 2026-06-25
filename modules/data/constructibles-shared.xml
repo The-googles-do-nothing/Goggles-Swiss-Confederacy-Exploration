@@ -54,9 +54,9 @@
 	<Constructible_YieldChanges>
 		<!-- Civ Unique Improvements -->
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="1"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<!-- Modern -->

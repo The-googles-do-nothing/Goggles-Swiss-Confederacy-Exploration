@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<!-- RUTLISCHWUR -->
-
-	<!-- WARS_OF_KAPPLE -->
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_SWISS_CONFEDERACY_UNFRIENDLY_RELIGIOUS_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
 			<Requirement type="REQUIREMENT_NEAR_RELIGIOUS_CITY">
@@ -13,36 +10,17 @@
 				<Argument name="Tag">UNIT_CLASS_COMBAT</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH</Argument>
-		<String context="Description">LOC_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH_DESCRIPTION</String>
+		<Argument name="ModifierId">MOD_SWISS_CONFEDERACY_UNFRIENDLY_RELIGIOUS_STRENGTH_ATTACH</Argument>
+		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_UNFRIENDLY_RELIGIOUS_STRENGTH_DESCRIPTION</String>
 	</Modifier>
-	<Modifier id="ATTACH_NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<Modifier id="MOD_SWISS_CONFEDERACY_UNFRIENDLY_RELIGIOUS_STRENGTH_ATTACH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_WARS_OF_KAPPLE_COMBAT_PREVIEW</String>
+		<String context="Preview">LOC_SWISS_CONFEDERACY_UNFRIENDLY_RELIGIOUS_STRENGTH_PREVIEW</String>
 	</Modifier>
 	
-	<!-- GOTTHARD_PASS -->
-
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_TERRAIN">
-				<Argument name="TerrainType">TERRAIN_MOUNTAIN</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Amount">10</Argument>
-		<Argument name="DomainType">DOMAIN_LAND</Argument>
-		<String context="Description">LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION</String>
-	</Modifier>
-
-	<!-- TAGSATZUNG -->
-
-	<!-- PFAFFENBRIEF -->
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
+	<Modifier id="MOD_SWISS_CONFEDERACY_WORKER_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
 		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP_DESCRIPTION</String>
+		<String context="Description">MOD_SWISS_CONFEDERACY_WORKER_CAP_DESCRIPTION</String>
 	</Modifier>
-
-	<!--Unit Abilities-->
-
 
 </GameEffects>
