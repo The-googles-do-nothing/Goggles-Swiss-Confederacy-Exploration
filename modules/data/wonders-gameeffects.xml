@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<Modifier id="MOD_WONDER_ZYTGLOGGE_PRODUCTION_PER_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_YIELD_CONVERSION">
+	<Modifier id="MOD_WONDER_ZYTGLOGGE_PRODUCTION_PER_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_YIELD_CONVERSION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
 				<Argument name="ConstructibleType">WONDER_ZYTGLOGGE</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="FromYieldType">YIELD_SCIENCE</Argument>
+		<Argument name="FromYieldType">YIELD_CULTURE</Argument>
 		<Argument name="ToYieldType">YIELD_PRODUCTION</Argument>
-		<Argument name="Percent">50</Argument>
+		<Argument name="Percent">25</Argument>
+		<Argument name="Tooltip">LOC_WONDER_ZYTGLOGGE_NAME</Argument>
+		<Argument name="Description">LOC_WONDER_ZYTGLOGGE_DESCRIPTION</Argument>
 	</Modifier>
 
 	<!-- ==================================================	-->

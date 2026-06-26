@@ -42,19 +42,12 @@
 		<!-- GROSS_GLOCK -->
 		<Modifier id="MOD_SWISS_CONFEDERACY_ADJUST_ADJACENCY_MOUNTAIN_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 			<Argument name="Adjacency_YieldChange">MountainHappiness</Argument>
-			<Argument name="Amount">3</Argument>
+			<Argument name="Amount">2</Argument>
 			<Argument name="Divisor">1</Argument>
 			<String context="Description">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS_DESCRIPTION</String>
 			<Argument name="Tooltip">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS_TOOLTIP</Argument>
 		</Modifier>
 		<!-- TUNDRA_MOUNTAIN -->
-		<Modifier id="MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-			<Argument name="YieldType">YIELD_CULTURE</Argument>
-			<Argument name="Amount">2</Argument>
-			<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</Argument>
-			<String context="Description">LOC_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_CULTURE_DESCRIPTION</String>
-		</Modifier>
-
 		<Modifier id="MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 			<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 			<Argument name="Amount">4</Argument>
@@ -62,13 +55,6 @@
 			<String context="Description">LOC_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS_DESCRIPTION</String>
 		</Modifier>
 		<!-- MOUNTAIN -->
-		<Modifier id="MOD_SWISS_CONFEDERACY_MOUNTAIN_FOOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-			<Argument name="YieldType">YIELD_FOOD</Argument>
-			<Argument name="Amount">4</Argument>
-			<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</Argument>
-			<String context="Description">LOC_SWISS_CONFEDERACY_MOUNTAIN_FOOD_DESCRIPTION</String>
-		</Modifier>
-
 		<Modifier id="MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 			<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 			<Argument name="Amount">2</Argument>

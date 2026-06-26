@@ -18,19 +18,22 @@
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_ZYTGLOGGE" MaxWorldInstances="1" AdjacentConstructible="BUILDING_CITY_HALL"/>    
 	</Wonders>
+	<TypeTags>
+		<Row Type="WONDER_ZYTGLOGGE" Tag="AGELESS"/>
+	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_ZYTGLOGGE" DistrictType="DISTRICT_WONDER"/>
     </Constructible_ValidDistricts>
 	<Constructible_YieldChanges>
 		<!-- Wonders -->
-		<Row ConstructibleType="WONDER_ZYTGLOGGE" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
     </Constructible_YieldChanges>
 	<ConstructibleModifiers>
 		<!-- Wonders -->
-		<Row ConstructibleType="WONDER_ZYTGLOGGE" ModifierId="MOD_WONDER_ZYTGLOGGE_PRODUCTION_PER_SCIENCE"/>
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" ModifierId="MOD_WONDER_ZYTGLOGGE_PRODUCTION_PER_CULTURE"/>
     </ConstructibleModifiers>
     <Constructible_Advisories>
-		<Row ConstructibleType="WONDER_ZYTGLOGGE" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
     </Constructible_Advisories>
 </Database>
