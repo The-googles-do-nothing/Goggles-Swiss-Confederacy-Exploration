@@ -105,22 +105,21 @@
 		<Row ConstructibleType="BUILDING_HANDELSUNTERNEHME_JEC" Percent="5" />
 	</Constructible_BuildingCostProgressions>
 	<ConstructibleModifiers>
-		<Row ConstructibleType="BUILDING_KANTONALBANK_JEC" ModifierId="MOD_KANTONALBANK_GOLD_ON_QUARTERS"/>
-		<Row ConstructibleType="BUILDING_HANDELSUNTERNEHME_JEC" ModifierId="MOD_HANDELSUNTERNEHME_GOLD_PER_IMPORTED_RESOURCE"/>
-		<Row ConstructibleType="BUILDING_HANDELSUNTERNEHME_JEC" ModifierId="MOD_HANDELSUNTERNEHME_GOLD_PER_LOCAL_RESOURCE"/>
 	</ConstructibleModifiers>
 	<UniqueQuarters>
 		<Row UniqueQuarterType="QUARTER_ROHSTOFFHANDEL" BuildingType1="BUILDING_KANTONALBANK_JEC" BuildingType2="BUILDING_HANDELSUNTERNEHME_JEC" Name="LOC_QUARTER_ROHSTOFFHANDEL_NAME" Description="LOC_QUARTER_ROHSTOFFHANDEL_DESCRIPTION" Tooltip="LOC_QUARTER_ROHSTOFFHANDEL_TOOLTIP" TraitType="TRAIT_SWISS_CONFEDERACY_JEC" />
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->
-		<Row ModifierId="ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_GOLD"/>
-		<Row ModifierId="ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_MOUNTAIN_GOLD"/>
+		<Row ModifierId="MOD_SWISS_CONFEDERACY_ECSTATIC_RESOURCE_CULTURE"/>
+		<Row ModifierId="MOD_SWISS_CONFEDERACY_JOYOUS_RESOURCE_CULTURE"/>
+		<Row ModifierId="MOD_SWISS_CONFEDERACY_HAPPY_RESOURCE_CULTURE"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_ROHSTOFFHANDEL" ModifierId="ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS"/>
-		<Row UniqueQuarterType="QUARTER_ROHSTOFFHANDEL" ModifierId="ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS"/>
+		<Row UniqueQuarterType="QUARTER_ROHSTOFFHANDEL" ModifierId="MOD_SWISS_CONFEDERACY_ECSTATIC_RESOURCE_CULTURE"/>
+		<Row UniqueQuarterType="QUARTER_ROHSTOFFHANDEL" ModifierId="MOD_SWISS_CONFEDERACY_JOYOUS_RESOURCE_CULTURE"/>
+		<Row UniqueQuarterType="QUARTER_ROHSTOFFHANDEL" ModifierId="MOD_SWISS_CONFEDERACY_HAPPY_RESOURCE_CULTURE"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 	</Constructible_Advisories>

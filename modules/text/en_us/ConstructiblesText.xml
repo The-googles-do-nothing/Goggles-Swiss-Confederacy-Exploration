@@ -2,34 +2,6 @@
 <Database>
 	<EnglishText>
 		<!--Swiss Confederacy Names-->
-		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME">
-			<Text>Stadel im Sommer</Text>
-		</Row>
-
-		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_DESCRIPTION">
-			<Text>Non-Tundra Mountain Tile</Text>
-		</Row>
-
-		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_TOOLTIP">
-			<Text>+1[icon:YIELD_FOOD] Food.</Text>
-		</Row>
-
-		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME">
-			<Text>Stadel im Winter</Text>
-		</Row>
-
-		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_DESCRIPTION">
-			<Text>Tundra Mountain Tile</Text>
-		</Row>
-
-		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_TOOLTIP">
-			<Text>+1[icon:YIELD_CULTURE] Culture.</Text>
-		</Row>
-
-		<Row Tag="LOC_TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE_DESCRIPTION">
-			<Text>Mountain tiles can be worked</Text>
-		</Row>
-
 		<Row Tag="LOC_BUILDING_KLOSTER_JEC_NAME">
 			<Text>Kloster</Text>
 		</Row>
@@ -37,7 +9,7 @@
 			<Text>Kloster (Monestary) {LOC_BUILDING_KLOSTER_JEC_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_KLOSTER_JEC_TOOLTIP">
-			<Text>+3[icon:YIELD_HAPPINESS] Happiness. Has 1 Relic slot.</Text>
+			<Text>Has 1 Relic slot.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_NAME">
@@ -47,17 +19,33 @@
 			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP">
-			<Text>+2 [icon:YIELD_CULTURE] Culture. +2 [icon:YIELD_SCIENCE] Science. Has 1 Great Work slot.</Text>
+			<Text>Has 1 Great Work slot.</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">
 			<Text>Fürstabtei (Abby)</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_DESCRIPTION">
-			<Text>+1[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_PRODUCTION] Production to Mountains</Text>
+			<Text>Increased Culture adjacency from mountains</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_TOOLTIP">
-			<Text>+1[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_PRODUCTION] Production to Mountains</Text>
+			<Text>Increased Culture adjacency from mountains</Text>
 		</Row>
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE_DESCRIPTION">
+			<Text>Ecstatic setttlements have +5[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE_DESCRIPTION">
+			<Text>Joyous setttlements have +3[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE_DESCRIPTION">
+			<Text>Happy setttlements have +1[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_CULTURE_DESCRIPTION">
+			<Text>+1[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
+		</Row>
+
 	</EnglishText>
 </Database>

@@ -16,20 +16,28 @@
 			<Text>Handelsunternehme (Trading Company)</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HANDELSUNTERNEHME_JEC_DESCRIPTION">
-			<Text>+5 [icon:YIELD_PRODUCTION] Production, +4 [icon:YIELD_FOOD] Food. +2[icon:YIELD_HappINESS] per imported resource, +1[icon:YIELD_HappINESS] per local resource.</Text>
+			<Text>+5 [icon:YIELD_PRODUCTION] Production, +4 [icon:YIELD_FOOD] Food. +2[icon:YIELD_HAPPINESS] per imported resource, +1[icon:YIELD_HAPPINESS] per local resource.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HANDELSUNTERNEHME_JEC_TOOLTIP">
-			<Text>+2[icon:YIELD_HappINESS] per imported resource, +1[icon:YIELD_HappINESS] per local resource.</Text>
+			<Text>+2[icon:YIELD_HAPPINESS] per imported resource, +1[icon:YIELD_HAPPINESS] per local resource.</Text>
 		</Row>
 
-		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_NAME">
+		<Row Tag="LOC_ROHSTOFFHANDEL_NAME">
 			<Text>Rohstoffhandel (Commodity Trading)</Text>
 		</Row>
-		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_DESCRIPTION">
-			<Text>+4[icon:YIELD_GOLD] Gold to Tundra Mountains, +2[icon:YIELD_GOLD] Gold to Mountains</Text>
+		<Row Tag="LOC_ROHSTOFFHANDEL_DESCRIPTION">
+			<Text>Culture Yields from Imported Resources</Text>
 		</Row>
-		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_TOOLTIP">
-			<Text>+4[icon:YIELD_GOLD] Gold to Tundra Mountains, +2[icon:YIELD_GOLD] Gold to Mountains</Text>
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_ECSTATIC_RESOURCE_CULTURE_DESCRIPTION">
+			<Text>Ecstatic setttlements have +5[icon:YIELD_CULTURE] Culture from imported resouces.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_JOYOUS_RESOURCE_CULTURE_DESCRIPTION">
+			<Text>Joyous setttlements have +3[icon:YIELD_CULTURE] Culture from imported resouces.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_HAPPY_RESOURCE_CULTURE_DESCRIPTION">
+			<Text>Happy setttlements have +1[icon:YIELD_CULTURE] Culture from imported resouces.</Text>
 		</Row>
 	</EnglishText>
 </Database>

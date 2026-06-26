@@ -127,6 +127,7 @@
 					<Item>text/en_us/AmtsburgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
+					<Item>text/en_us/ConstructiblesSharedText.xml</Item>
 					<Item>text/en_us/ConstructiblesModernText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
 
@@ -290,6 +291,7 @@
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
+					<Item>text/en_us/ConstructiblesSharedText.xml</Item>
 					<Item>text/en_us/ConstructiblesModernText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/CultureTraditionsText.xml</Item>

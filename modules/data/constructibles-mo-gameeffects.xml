@@ -1,61 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-
-	<Modifier id="MOD_KANTONALBANK_GOLD_ON_QUARTERS" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IS_QUARTER"/>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">1</Argument>
-	</Modifier>
-
-	<Modifier id="MOD_HANDELSUNTERNEHME_GOLD_PER_IMPORTED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">2</Argument>
-		<Argument name="Imported">true</Argument>
-		<Argument name="Tooltip">LOC_BUILDING_HANDELSUNTERNEHME_JEC_NAME</Argument>
-		<String context="Description">LOC_BUILDING_HANDELSUNTERNEHME_JEC_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="MOD_HANDELSUNTERNEHME_GOLD_PER_LOCAL_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="Imported">false</Argument>
-		<Argument name="Tooltip">LOC_BUILDING_HANDELSUNTERNEHME_JEC_NAME</Argument>
-		<String context="Description">LOC_BUILDING_HANDELSUNTERNEHME_JEC_DESCRIPTION</String>
-	</Modifier>
-
 	<!-- ROHSTOFFHANDEL -->
-	<Modifier id="ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+
+	<!-- HAPPINESS_STAGE_ECSTATIC -->
+	<Modifier id="MOD_SWISS_CONFEDERACY_ECSTATIC_RESOURCE_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
+				<Argument name="IsExact">true</Argument>
+				<Argument name="HappinessStage">HAPPINESS_STAGE_ECSTATIC</Argument>
+			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_ROHSTOFFHANDEL</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS</Argument>
+		<Argument name="ModifierId">MOD_SWISS_CONFEDERACY_ECSTATIC_RESOURCE_CULTURE_ATTACH</Argument>
+		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_ECSTATIC_RESOURCE_CULTURE_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="ATTACH_ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">4</Argument>
-		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</Argument>
-		<String context="Description">LOC_QUARTER_ROHSTOFFHANDEL_DESCRIPTION</String>
+	<Modifier id="MOD_SWISS_CONFEDERACY_ECSTATIC_RESOURCE_CULTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">5</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_ROHSTOFFHANDEL_NAME</Argument>
+		<String context="Description">LOC_ROHSTOFFHANDEL_DESCRIPTION</String>
 	</Modifier>
-
-	<Modifier id="ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+	
+	<!-- HAPPINESS_STAGE_JOYOUS -->
+	<Modifier id="MOD_SWISS_CONFEDERACY_JOYOUS_RESOURCE_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
+				<Argument name="IsExact">true</Argument>
+				<Argument name="HappinessStage">HAPPINESS_STAGE_JOYOUS</Argument>
+			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_ROHSTOFFHANDEL</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS</Argument>
+		<Argument name="ModifierId">MOD_SWISS_CONFEDERACY_JOYOUS_RESOURCE_CULTURE_ATTACH</Argument>
+		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_JOYOUS_RESOURCE_CULTURE_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="ATTACH_ROHSTOFFHANDEL_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">2</Argument>
-		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</Argument>
-		<String context="Description">LOC_QUARTER_ROHSTOFFHANDEL_DESCRIPTION</String>
+	<Modifier id="MOD_SWISS_CONFEDERACY_JOYOUS_RESOURCE_CULTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_ROHSTOFFHANDEL_NAME</Argument>
+		<String context="Description">LOC_ROHSTOFFHANDEL_DESCRIPTION</String>
 	</Modifier>
+
+	<!-- HAPPINESS_STAGE_HAPPY -->
+	<Modifier id="MOD_SWISS_CONFEDERACY_HAPPY_RESOURCE_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
+				<Argument name="IsExact">true</Argument>
+				<Argument name="HappinessStage">HAPPINESS_STAGE_HAPPY</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_ROHSTOFFHANDEL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_SWISS_CONFEDERACY_HAPPY_RESOURCE_CULTURE_ATTACH</Argument>
+		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_HAPPY_RESOURCE_CULTURE_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_SWISS_CONFEDERACY_HAPPY_RESOURCE_CULTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_ROHSTOFFHANDEL_NAME</Argument>
+		<String context="Description">LOC_ROHSTOFFHANDEL_DESCRIPTION</String>
+	</Modifier>
+
 
 </GameEffects>

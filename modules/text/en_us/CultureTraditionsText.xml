@@ -28,27 +28,28 @@
 			<Text>Grosse Glocke</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION">
-			<Text>Increased Culture adjacency from mountains.</Text>
+			<Text>The Big Bell</Text>
 		</Row>
 
-		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_CULTURE_TOOLTIP">
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS_DESCRIPTION">
+			<Text>Increased[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS_TOOLTIP">
 			<Text>+{1_Amount}[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
 		</Row>
-		
-		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE_DESCRIPTION">
-			<Text>Ecstatic setttlements have +5[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
-		</Row>
 
-		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE_DESCRIPTION">
-			<Text>Joyuse setttlements have +3[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
+		<Row Tag="LOC_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_CULTURE_DESCRIPTION">
+			<Text>+{1_Amount}[icon:YIELD_CULTURE] Culture to tundra mountains.</Text>
 		</Row>
-
-		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE_DESCRIPTION">
-			<Text>Happy setttlements have +1[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
+		<Row Tag="LOC_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS_DESCRIPTION">
+			<Text>+{1_Amount}[icon:YIELD_HAPPINESS] Happiness to tundra mountains.</Text>
 		</Row>
-
-		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_CULTURE_DESCRIPTION">
-			<Text>+1[icon:YIELD_CULTURE] Culture adjacency from mountains.</Text>
+		<Row Tag="LOC_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_HAPPINESS_DESCRIPTION">
+			<Text>+{1_Amount}[icon:YIELD_HAPPINESS] Happiness to mountains.</Text>
+		</Row>
+		<Row Tag="LOC_SWISS_CONFEDERACY_MOUNTAIN_FOOD_DESCRIPTION">
+			<Text>+{1_Amount}[icon:YIELD_FOOD] Food to mountains.</Text>
 		</Row>
 
 		<!-- Tradition -->
