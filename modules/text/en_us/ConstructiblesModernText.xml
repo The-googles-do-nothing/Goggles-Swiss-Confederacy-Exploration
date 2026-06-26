@@ -22,10 +22,10 @@
 			<Text>+2[icon:YIELD_HAPPINESS] per imported resource, +1[icon:YIELD_HAPPINESS] per local resource.</Text>
 		</Row>
 
-		<Row Tag="LOC_ROHSTOFFHANDEL_NAME">
+		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_NAME">
 			<Text>Rohstoffhandel (Commodity Trading)</Text>
 		</Row>
-		<Row Tag="LOC_ROHSTOFFHANDEL_DESCRIPTION">
+		<Row Tag="LOC_QUARTER_ROHSTOFFHANDEL_DESCRIPTION">
 			<Text>Culture Yields from Imported Resources</Text>
 		</Row>
 		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_ECSTATIC_RESOURCE_CULTURE_DESCRIPTION">

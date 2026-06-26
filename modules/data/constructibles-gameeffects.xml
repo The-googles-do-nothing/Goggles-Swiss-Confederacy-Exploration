@@ -3,7 +3,7 @@
 	<!-- FURSTABTEI -->
 
 	<!-- HAPPINESS_STAGE_ECSTATIC -->
-	<Modifier id="MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
 				<Argument name="IsExact">true</Argument>
@@ -13,19 +13,15 @@
 				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE_ATTACH</Argument>
-		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<Argument name="Adjacency_YieldChange">MountainCulture</Argument>
 		<Argument name="Amount">6</Argument>
 		<Argument name="Divisor">1</Argument>
 		<Argument name="Tooltip">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_CULTURE_TOOLTIP</Argument>
+		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE_DESCRIPTION</String>
 	</Modifier>
-	
+
 	<!-- HAPPINESS_STAGE_JOYOUS -->
-	<Modifier id="MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
 				<Argument name="IsExact">true</Argument>
@@ -35,19 +31,15 @@
 				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE_ATTACH</Argument>
-		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<Argument name="Adjacency_YieldChange">MountainCulture</Argument>
 		<Argument name="Amount">4</Argument>
 		<Argument name="Divisor">1</Argument>
 		<Argument name="Tooltip">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_CULTURE_TOOLTIP</Argument>
+		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- HAPPINESS_STAGE_HAPPY -->
-	<Modifier id="MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
 				<Argument name="IsExact">true</Argument>
@@ -57,15 +49,11 @@
 				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE_ATTACH</Argument>
-		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<Argument name="Adjacency_YieldChange">MountainCulture</Argument>
 		<Argument name="Amount">2</Argument>
 		<Argument name="Divisor">1</Argument>
 		<Argument name="Tooltip">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_CULTURE_TOOLTIP</Argument>
+		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE_DESCRIPTION</String>
 	</Modifier>
 
 </GameEffects>

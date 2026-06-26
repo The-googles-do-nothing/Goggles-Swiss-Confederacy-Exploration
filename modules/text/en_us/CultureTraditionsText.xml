@@ -28,7 +28,7 @@
 			<Text>Grosse Glocke</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION">
-			<Text>The Big Bell</Text>
+			<Text>Increased adjacency and yields from mountains.</Text>
 		</Row>
 
 		<Row Tag="LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS_DESCRIPTION">
