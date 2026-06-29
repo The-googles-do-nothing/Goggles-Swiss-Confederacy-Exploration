@@ -50,7 +50,8 @@
         <!-- DANIEL_BERNOULLI -->
         <Row NarrativeRewardType="STORY_DANIEL_BERNOULLI_END_REWARD" ModifierID="STORY_DANIEL_BERNOULLI_END_NARRATIVE_MODIFIER"/>
         <!-- PARACELSUS -->
-        <Row NarrativeRewardType="STORY_PARACELSUS_END_REWARD" ModifierID="STORY_PARACELSUS_END_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="STORY_PARACELSUS_END_REWARD" ModifierID="STORY_PARACELSUS_END_NARRATIVE_MODIFIER_1"/>
+        <Row NarrativeRewardType="STORY_PARACELSUS_END_REWARD" ModifierID="STORY_PARACELSUS_END_NARRATIVE_MODIFIER_2"/>
     </NarrativeRewards>
 
     <NarrativeStory_Rewards>

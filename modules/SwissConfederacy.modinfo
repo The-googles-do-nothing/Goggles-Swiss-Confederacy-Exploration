@@ -155,7 +155,7 @@
 					<Item>icons/wondericon_zytglogge.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
-				 	<Item>data/icons/SwissConfederacy.xml</Item>
+				 	<Item>data/icons/icons.xml</Item>
 					<Item>data/icons/wonder-icons.xml</Item>
                 </UpdateIcons>
 			</Actions>
@@ -283,7 +283,7 @@
 					<Item>icons/wondericon_zytglogge.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
-				 	<Item>data/icons/SwissConfederacy.xml</Item>
+				 	<Item>data/icons/icons.xml</Item>
 					<Item>data/icons/wonder-icons.xml</Item>
                 </UpdateIcons>
 				<UpdateText>

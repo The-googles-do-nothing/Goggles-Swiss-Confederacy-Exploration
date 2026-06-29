@@ -142,7 +142,7 @@
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-                <Row>
+        <Row>
             <ID>UNIT_LEHRBEAUFTRAGTER_JEC_DANIEL_BERNOULLI</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter_jec.png</Path>
             <Context>DEFAULT</Context>
