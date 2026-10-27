@@ -14,15 +14,15 @@
 	</AgeGrowthBalances>
 	<Constructibles>
 		<!-- Civ Unique Improvements -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_EXPLORATION"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_EXPLORATION" RequiresUnlock="true"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_EXPLORATION" RequiresUnlock="true"/>
 	</Constructibles>
 	<Buildings>
 	</Buildings>
 	<Improvements>
 		<!-- Civ Unique Improvements -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" />
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" />
 	</Improvements>
 	<Wonders>
 	</Wonders>
@@ -41,6 +41,10 @@
 		<Row DistrictType="DISTRICT_RURAL" BiomeType="BIOME_DESERT" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="2"/>
 		<Row DistrictType="DISTRICT_RURAL" BiomeType="BIOME_TUNDRA" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="1"/>
 	</District_FreeConstructibles>
+	<CivilopediaPageExcludes>
+		<Row SectionID="IMPROVEMENTS" PageID="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" />
+		<Row SectionID="IMPROVEMENTS" PageID="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" />
+	</CivilopediaPageExcludes>
 	<Constructible_ValidBiomes>
 	</Constructible_ValidBiomes>
 	<Constructible_InvalidAdjacentBiomes>
@@ -53,8 +57,8 @@
 	</AgeConstructibleDefaultMaintenances>
 	<Constructible_YieldChanges>
 		<!-- Civ Unique Improvements -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="2"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
 	</Constructible_YieldChanges>

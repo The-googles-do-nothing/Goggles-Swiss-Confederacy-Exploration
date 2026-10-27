@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- ABILITY_PIKE_SQUARE -->
-	<Modifier id="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<Modifier id="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_DAMAGE_ATTACK_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">5</Argument>
-		<String context="Preview">LOC_ABILITY_PIKE_SQUARE_PREVIEW</String>
+		<Argument name="Percent">150</Argument>
 	</Modifier>
 
-	<Modifier id="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY_ELITE" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<Modifier id="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY_ELITE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_DAMAGE_ATTACK_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">5</Argument>
-		<String context="Preview">LOC_ABILITY_PIKE_SQUARE_PREVIEW</String>
+		<Argument name="Percent">150</Argument>
 	</Modifier>
 
 	<Modifier id="MOD_ABILITY_WARS_OF_KAPPLE_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">

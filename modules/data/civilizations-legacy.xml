@@ -3,13 +3,15 @@
 	<Types>
 		<!-- Major Civs -->
 		<Row Type="TRAIT_SWISS_CONFEDERACY_JEC" Kind="KIND_TRAIT"/>
-		<!-- <Row Type="TRAIT_SWISS_CONFEDERACY_JEC_2" Kind="KIND_TRAIT"/> -->
 		<Row Type="CIVILIZATION_SWISS_CONFEDERACY_JEC" Kind="KIND_CIVILIZATION"/>
 	</Types>
 	<LegacyCivilizations>
 		<!-- Full Civs -->
 		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME" FullName="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_FULLNAME" Adjective="LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_ADJECTIVE" Age="AGE_EXPLORATION"/>
 	</LegacyCivilizations>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" TraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>
+	</LegacyCivilizationTraits>
 	<Traits>
 		<Row TraitType="TRAIT_SWISS_CONFEDERACY_JEC" InternalOnly="true"/>
 	</Traits>

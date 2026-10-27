@@ -42,7 +42,7 @@
 		<!-- GROSS_GLOCK -->
 		<Modifier id="MOD_SWISS_CONFEDERACY_ADJUST_ADJACENCY_MOUNTAIN_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 			<Argument name="Adjacency_YieldChange">MountainHappiness</Argument>
-			<Argument name="Amount">2</Argument>
+			<Argument name="Amount">1</Argument>
 			<Argument name="Divisor">1</Argument>
 			<String context="Description">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS_DESCRIPTION</String>
 			<Argument name="Tooltip">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS_TOOLTIP</Argument>
@@ -57,7 +57,7 @@
 		<!-- MOUNTAIN -->
 		<Modifier id="MOD_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 			<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-			<Argument name="Amount">2</Argument>
+			<Argument name="Amount">1</Argument>
 			<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</Argument>
 			<String context="Description">LOC_SWISS_CONFEDERACY_MOUNTAIN_HAPPINESS_DESCRIPTION</String>
 		</Modifier>

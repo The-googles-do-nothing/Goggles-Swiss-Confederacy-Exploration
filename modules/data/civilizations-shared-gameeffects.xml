@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-
-	<!-- ==================================================	-->
-	<!--	Civ-Specific Traits							-->
-	<!-- ==================================================	-->
-	
-	<!-- ======================================================================================== -->
-
-
+	<Modifier id="TRAIT_MOD_EIDGENOSSENSCHAFT_IMPROVE_MOUNTAINS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_CONSTRUCTIBLE_UNLOCK">
+		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_EIDGENOSSENSCHAFT_IMPROVE_TUNDRA_MOUNTAINS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_CONSTRUCTIBLE_UNLOCK">
+		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</Argument>
+	</Modifier>
 </GameEffects>

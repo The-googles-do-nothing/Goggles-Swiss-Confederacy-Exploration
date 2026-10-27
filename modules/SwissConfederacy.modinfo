@@ -163,11 +163,16 @@
         <ActionGroup id="base-game-main-swiss-confederacy" scope="game" criteria="always">
 			<Actions>
                 <UpdateDatabase>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					
+					<Item>data/constructibles-shared.xml</Item>
+					<Item>data/constructibles-shared-gameeffects.xml</Item>
+
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
-					<Item>data/civilizations-legacy.xml</Item>
-					<Item>data/civilizations-shared.xml</Item>
-					<Item>data/civilizations-shared-gameeffects.xml</Item>
+
 
 					<Item>data/unlocks-base-standard.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
@@ -175,9 +180,6 @@
 					<Item>data/unlocks-syncretism.xml</Item>
 
 					<Item>data/loading-info-exploration.xml</Item>
-
-					<Item>data/constructibles-shared.xml</Item>
-					<Item>data/constructibles-shared-gameeffects.xml</Item>
 
 					<!-- <Item>data/ai_exploration.xml</Item> -->
 					<Item>data/victories.xml</Item>
