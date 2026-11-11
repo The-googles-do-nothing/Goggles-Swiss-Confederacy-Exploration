@@ -61,13 +61,25 @@
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
+
+
+		
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<!-- Modern -->
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
+		<!-- GROSS_GLOCK -->
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldChangeId="GrossGlockStadelMountainHappiness" RequiresActivation="true"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldChangeId="GrossGlockStadelTundraMountainHappiness" RequiresActivation="true"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
+		<!-- GROSS_GLOCK -->
+		<Row ID="GrossGlockMountainHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+		<Row ID="GrossGlockStadelMountainHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+		<Row ID="GrossGlockStadelTundraMountainHappiness" YieldType="YIELD_HAPPINESS" YieldChange="2" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+
+		<!-- VIERWALDSTATTER -->
 		<Row ID="SwissConfederacyLakeHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 		<Row ID="SwissConfederacyLakeFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 		<Row ID="SwissConfederacyLakeCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
@@ -86,7 +98,9 @@
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
-		<!-- Civ Uniques -->
+		<!-- GROSS_GLOCK -->
+		<Row YieldChangeId="GrossGlockMountainHappiness" RequiresActivation="true" ConstructibleTag="HAPPINESS" />
+		<!-- VIERWALDSTATTER -->
 		<Row YieldChangeId="SwissConfederacyLakeHappiness" RequiresActivation="true" ConstructibleTag="HAPPINESS" />
 		<Row YieldChangeId="SwissConfederacyLakeFood" RequiresActivation="true" ConstructibleTag="FOOD" />
 		<Row YieldChangeId="SwissConfederacyLakeCulture" RequiresActivation="true" ConstructibleTag="CULTURE" />

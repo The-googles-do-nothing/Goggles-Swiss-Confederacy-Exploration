@@ -6,7 +6,6 @@
 		<Name>LOC_MODULE_SWISS_CONFEDERACY_NAME</Name>
 		<Description>LOC_MODULE_SWISS_CONFEDERACY_DESCRIPTION</Description>
 		<Authors>LOC_AUTHORS_JEC</Authors>
-		<Package>DLC</Package>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>

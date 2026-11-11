@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_SWISS_CONFEDERACY">
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_SWISS_CONFEDERACY_JEC">
 			<Text>The nucleus of the Old Swiss Confederacy was an alliance among the valley communities of the central Alps to facilitate management of common interests (such as trade) and ensure peace along trade routes through the mountains. The Swiss Confederacy fell to a French invasion in 1798.</Text>
 		</Row>
-		<Row Tag="LOC_LOADING_INTRO_SWISS_CONFEDERACY">
+		<Row Tag="LOC_LOADING_INTRO_SWISS_CONFEDERACY_JEC">
 			<Text>So it has reached this pass? Obedience and fear take flight together?</Text>
 		</Row>
-		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_SWISS_CONFEDERACY">
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_SWISS_CONFEDERACY_JEC">
 			<Text>Let the beauty of the Montain Ranges turn the Swiss Confederacy into a powerhouse.  Ally your friends and let your Pike Squares come to thier aid.</Text>
 		</Row>
 

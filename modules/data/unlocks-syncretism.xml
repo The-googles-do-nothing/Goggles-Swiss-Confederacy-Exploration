@@ -7,9 +7,9 @@
 		<Row LeaderType="LEADER_NAPOLEON" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
 	</LeaderSyncretismUnlocks>
 	<CivilizationSyncretismUnlocks>
-		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" UnlockCivilizationType="CIVILIZATION_ROME" />
-		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" UnlockCivilizationType="CIVILIZATION_FRENCH_EMPIRE" />
-		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" UnlockCivilizationType="CIVILIZATION_PRUSSIA" />
+		<Row CivilizationType="CIVILIZATION_ROME" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
+		<Row CivilizationType="CIVILIZATION_FRENCH_EMPIRE" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
+		<Row CivilizationType="CIVILIZATION_PRUSSIA" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
 	</CivilizationSyncretismUnlocks>
 	<CivSelfSyncretismUnlocks>
 		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" UnlockType="TRADITION_SWISS_CONFEDERACY_SYNCRETISM_ANTIQUITY" Kind="KIND_TRADITION" Age="AGE_ANTIQUITY" ModifierID="MOD_UNLOCK_SWISS_CONFEDERACY_JEC_SYNCRETISM_ANTIQUITY" />

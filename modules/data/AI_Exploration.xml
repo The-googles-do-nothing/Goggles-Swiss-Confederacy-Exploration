@@ -35,6 +35,7 @@
 		<Row ListType="Swiss Confederacy Constructibles Biases" Item="WONDER_ZYTGLOGGE" Value="50"/>
 		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_PIKE_SQUARE_JEC" Value="50"/>
 		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_PIKE_SQUARE_JEC_2" Value="50"/>
+		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_PIKE_SQUARE_JEC_3" Value="50"/>
 		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_AMTSBURGERMEISTER_JEC" Value="50"/>
 		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_LEHRBEAUFTRAGTER_JEC" Value="50"/>
     	<Row ListType="Swiss Confederacy Settlement Plot Evaluations" Item="Specific Biome" Favored="false" Value="3" StringVal="BIOME_TUNDRA" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_CITY_CENTER_BIOME"/>

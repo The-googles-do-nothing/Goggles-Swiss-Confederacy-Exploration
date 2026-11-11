@@ -86,7 +86,9 @@
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="WonderScience"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-
+		<Row ID="FurstabteiHappyMountainCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+		<Row ID="FurstabteiJoyousMountainCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+		<Row ID="FurstabteiEcstaticMountainCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>
@@ -95,7 +97,10 @@
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
-
+		<!-- QUARTER_FURSTABTEI -->
+		<Row YieldChangeId="FurstabteiHappyMountainCulture" RequiresActivation="true" ConstructibleTag="CULTURE" />
+		<Row YieldChangeId="FurstabteiJoyousMountainCulture" RequiresActivation="true" ConstructibleTag="CULTURE" />
+		<Row YieldChangeId="FurstabteiEcstaticMountainCulture" RequiresActivation="true" ConstructibleTag="CULTURE" />
 	</Constructible_WildcardAdjacencies>
 	<Constructible_Logistics>
 

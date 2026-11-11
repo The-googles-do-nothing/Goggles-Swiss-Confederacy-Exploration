@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<InsertOrIgnore Tag="LOC_MODULE_SWISS_CONFEDERACY_NAME">
+		<Row Tag="LOC_MODULE_SWISS_CONFEDERACY_NAME">
 			<Text>Swiss Confederacy</Text>
-		</InsertOrIgnore>
-		<InsertOrIgnore Tag="LOC_MODULE_SWISS_CONFEDERACY_DESCRIPTION">
+		</Row>
+		<Row Tag="LOC_MODULE_SWISS_CONFEDERACY_DESCRIPTION">
 			<Text>Swiss Confederacy Exploration Age</Text>
-		</InsertOrIgnore>
+		</Row>
 		<InsertOrIgnore Tag="LOC_AUTHORS_JEC">
 			<Text>The_Goggles_Do_Nothing</Text>
 		</InsertOrIgnore>

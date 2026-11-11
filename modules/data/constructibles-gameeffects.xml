@@ -3,57 +3,45 @@
 	<!-- FURSTABTEI -->
 
 	<!-- HAPPINESS_STAGE_ECSTATIC -->
-	<Modifier id="MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+	<Modifier id="MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
-				<Argument name="IsExact">true</Argument>
+				<Argument name="IsGreaterThanOrEquals">true</Argument>
 				<Argument name="HappinessStage">HAPPINESS_STAGE_ECSTATIC</Argument>
-			</Requirement>
+       		</Requirement>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">MountainCulture</Argument>
-		<Argument name="Amount">4</Argument>
-		<Argument name="Divisor">1</Argument>
-		<Argument name="Tooltip">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_CULTURE_TOOLTIP</Argument>
-		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_ECSTATIC_MOUNTAIN_CULTURE_DESCRIPTION</String>
+		<Argument name="ConstructibleAdjacency">FurstabteiEcstaticMountainCulture</Argument>
 	</Modifier>
 
 	<!-- HAPPINESS_STAGE_JOYOUS -->
-	<Modifier id="MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+	<Modifier id="MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
-				<Argument name="IsExact">true</Argument>
+				<Argument name="IsGreaterThanOrEquals">true</Argument>
 				<Argument name="HappinessStage">HAPPINESS_STAGE_JOYOUS</Argument>
-			</Requirement>
+       		</Requirement>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">MountainCulture</Argument>
-		<Argument name="Amount">3</Argument>
-		<Argument name="Divisor">1</Argument>
-		<Argument name="Tooltip">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_CULTURE_TOOLTIP</Argument>
-		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_JOYOUS_MOUNTAIN_CULTURE_DESCRIPTION</String>
+		<Argument name="ConstructibleAdjacency">FurstabteiJoyousMountainCulture</Argument>
 	</Modifier>
 
 	<!-- HAPPINESS_STAGE_HAPPY -->
-	<Modifier id="MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+	<Modifier id="MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
-				<Argument name="IsExact">true</Argument>
+				<Argument name="IsGreaterThanOrEquals">true</Argument>
 				<Argument name="HappinessStage">HAPPINESS_STAGE_HAPPY</Argument>
-			</Requirement>
+       		</Requirement>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">MountainCulture</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="Divisor">1</Argument>
-		<Argument name="Tooltip">LOC_MOD_SWISS_CONFEDERACY_MOUNTAIN_CULTURE_TOOLTIP</Argument>
-		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_HAPPY_MOUNTAIN_CULTURE_DESCRIPTION</String>
+		<Argument name="ConstructibleAdjacency">FurstabteiHappyMountainCulture</Argument>
 	</Modifier>
 
 </GameEffects>
