@@ -6,9 +6,8 @@
 			<Text>Lehrbeauftragter</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LEHRBEAUFTRAGTER_JEC_DESCRIPTION">
-			<Text>A Great Person with one charge. Can only be trained in the Capitol, and the specific Lehrbeauftragter received is random. Each Lehrbeauftragter can only be received once. Cost increases per Lehrbeauftragter trained.</Text>
+			<Text>A Great Person with one charge. Receive one when you place a [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialist[/TIP] on a [icon:CITY_UNIQUE_QUARTER] Fürstabtei (Abbey), and the specific Lehrbeauftragter received is random. Each Lehrbeauftragter can only be received once.</Text>
 		</Row>
-
 		<Row Tag="LOC_UNIT_LEHRBEAUFTRAGTER_JEC_START_COMPLETION">
 			<Text>A new {LOC_UNIT_LEHRBEAUFTRAGTER_JEC_NAME} has joined the {LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME}</Text>
 		</Row>

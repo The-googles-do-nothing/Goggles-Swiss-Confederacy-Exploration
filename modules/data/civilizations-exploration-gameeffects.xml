@@ -22,5 +22,36 @@
 	 
 	<!-- ======================================================================================== -->
 
+	<Modifier id="TRAIT_MOD_GRANT_LEHRBEAUFTRAGTER_QUARTER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_TRAIT_MOD_GRANT_LEHRBEAUFTRAGTER_QUARTER</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_TRAIT_MOD_GRANT_LEHRBEAUFTRAGTER_QUARTER" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_HAS_X_WORKER_POPULATION">
+				<Argument name="MinWorkerPopulation">1</Argument>
+				<Argument name="Repeatable">true</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLOT_UNIQUE_QUARTER">
+                <Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
+				<Argument name="ConqueredValid">false</Argument>
+            </Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_JEC</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<Modifier id="TRAIT_MOD_GRANT_AMTSBURGERMEISTER_QUARTER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
+				<Argument name="ConqueredValid">false</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitType">UNIT_AMTSBURGERMEISTER_JEC</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
 
 </GameEffects>
