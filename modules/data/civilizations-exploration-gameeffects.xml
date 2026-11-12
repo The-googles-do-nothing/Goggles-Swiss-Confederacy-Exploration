@@ -6,7 +6,6 @@
 	<!-- ==================================================	-->
 	
 
-
 	<!-- ==================================================	-->
 	<!--	Civ Trees							-->
 	<!-- ==================================================	-->
@@ -42,16 +41,15 @@
 		<Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_JEC</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
-
-	<Modifier id="TRAIT_MOD_GRANT_AMTSBURGERMEISTER_QUARTER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+	<Modifier id="TRAIT_MOD_GRANT_AMTSBURGERMEISTER_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
-				<Argument name="ConqueredValid">false</Argument>
+			<Requirement type="REQUIREMENT_CITY_BUILT_TAGGED_CONSTRUCTIBLE">
+				<Argument name="Tags">PRODUCTION</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="UnitType">UNIT_AMTSBURGERMEISTER_JEC</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
+
 
 </GameEffects>
