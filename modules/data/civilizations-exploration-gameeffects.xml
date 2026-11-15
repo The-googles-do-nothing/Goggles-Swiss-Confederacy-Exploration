@@ -30,8 +30,8 @@
 	<Modifier id="ATTACH_TRAIT_MOD_GRANT_LEHRBEAUFTRAGTER_QUARTER" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_HAS_X_WORKER_POPULATION">
-				<Argument name="MinWorkerPopulation">1</Argument>
-				<Argument name="Repeatable">true</Argument>
+				<Argument name="MinWorkerPopulation">2</Argument>
+				<Argument name="Repeatable">false</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_PLOT_UNIQUE_QUARTER">
                 <Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>

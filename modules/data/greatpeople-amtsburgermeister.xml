@@ -14,7 +14,7 @@
 	</Types>
 	<GreatPersonClasses>
 		<!--Swiss Confederation-->
-		<Row GreatPersonClassType="GREAT_PERSON_CLASS_AMTSBURGERMEISTER" Name="LOC_UNIT_AMTSBURGERMEISTER_JEC_NAME" UnitType="UNIT_AMTSBURGERMEISTER_JEC" ConstructibleType="BUILDING_PALACE" AvailableInTimeline="true" GenerateDuplicateIndividuals="true" PseudoYieldType="PSEUDOYIELD_STANDING_ARMY_COMMANDER" IconString="unitflag_amtburgermeister" ActionIcon="action_greatperson"/>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_AMTSBURGERMEISTER" Name="LOC_UNIT_AMTSBURGERMEISTER_JEC_NAME" UnitType="UNIT_AMTSBURGERMEISTER_JEC" AvailableInTimeline="false" GenerateDuplicateIndividuals="true" PseudoYieldType="PSEUDOYIELD_STANDING_ARMY_COMMANDER" IconString="unitflag_amtburgermeister" ActionIcon="action_greatperson"/>
 
 	</GreatPersonClasses>
 	<GreatPersonIndividuals>
