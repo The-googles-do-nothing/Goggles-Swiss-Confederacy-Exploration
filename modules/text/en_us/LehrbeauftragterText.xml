@@ -6,8 +6,7 @@
 			<Text>Lehrbeauftragter</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LEHRBEAUFTRAGTER_JEC_DESCRIPTION">
-
-			<Text>A Great Person with one charge. Receive one when you complete a Fürstabtei (Abbey), and the specific Lehrbeauftragter received is random. Each Lehrbeauftragter can only be received once.</Text>
+			<Text>A Great Person with one charge. Receive one when you place a [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialist[/TIP] on a [icon:CITY_UNIQUE_QUARTER] Fürstabtei (Abbey), and the specific Lehrbeauftragter received is random. Each Lehrbeauftragter can only be received once.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LEHRBEAUFTRAGTER_JEC_START_COMPLETION">
 			<Text>A new {LOC_UNIT_LEHRBEAUFTRAGTER_JEC_NAME} has joined the {LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME}</Text>
@@ -19,7 +18,7 @@
 			<Text>Leonhard Euler</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_DESCRIPTION">
-			<Text>Activate in foreign capital to grants it Observatory. You recive +1[icon:YIELD_SCIENCE] Science adjacency with resouces and wonders.</Text>
+			<Text>Activate in foreign capital to grants it an Observatory. Science buidlings gain +1[icon:YIELD_SCIENCE] Science adjacency and Production buildings gain +1[icon:YIELD_PRODUCTION] Production adjacency with mountains tiles.</Text>
 		</Row>
 		<Row Tag="LOC_STORY_LEONHARD_EULER_START_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME}</Text>
@@ -56,7 +55,7 @@
 			<Text>Daniel Bernoulli</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_DESCRIPTION">
-			<Text>Activate in foreign capital to grants it a University. You receive +1[icon:YIELD_SCIENCE] Science to all Specialists in Cities.</Text>
+			<Text>Activate in foreign capital to grants it an Observatory. You receive +1[icon:YIELD_SCIENCE] Science and +1[icon:YIELD_PRODUCTION] Production to all Specialists in Cities.</Text>
 		</Row>
 
 		<Row Tag="LOC_STORY_DANIEL_BERNOULLI_START_STORYTITLE">
@@ -94,7 +93,7 @@
 			<Text>Paracelsus</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_DESCRIPTION">
-			<Text>Activate in foreign capital to grants it a Hospital. You receive a Scientific and Militaristic Attribute points.</Text>
+			<Text>Activate in foreign capital to grants it an Observatory. You receive a Scientific and Militaristic Attribute points.</Text>
 		</Row>
 		<Row Tag="LOC_STORY_PARACELSUS_START_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_NAME}</Text>

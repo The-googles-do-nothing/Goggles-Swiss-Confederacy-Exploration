@@ -86,6 +86,11 @@
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV_JEC" YieldChangeId="WonderScience"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
+		<!-- LEHRBEAUFTRAGTER -->
+		<Row ID="LehrbeauftragterMountainScience" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+		<Row ID="LehrbeauftragterMountainProduction" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+		
+		<!-- QUARTER_FURSTABTEI -->
 		<Row ID="FurstabteiHappyMountainCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
 		<Row ID="FurstabteiJoyousMountainCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
 		<Row ID="FurstabteiEcstaticMountainCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
@@ -97,6 +102,9 @@
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
+		<!-- LEHRBEAUFTRAGTER -->
+		<Row YieldChangeId="LehrbeauftragterMountainScience" RequiresActivation="true" ConstructibleTag="SCIENCE" />
+		<Row YieldChangeId="LehrbeauftragterMountainProduction" RequiresActivation="true" ConstructibleTag="PRODUCTION" />
 		<!-- QUARTER_FURSTABTEI -->
 		<Row YieldChangeId="FurstabteiHappyMountainCulture" RequiresActivation="true" ConstructibleTag="CULTURE" />
 		<Row YieldChangeId="FurstabteiJoyousMountainCulture" RequiresActivation="true" ConstructibleTag="CULTURE" />

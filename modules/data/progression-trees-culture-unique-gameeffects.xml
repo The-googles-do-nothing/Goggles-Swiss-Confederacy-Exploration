@@ -17,10 +17,12 @@
 		<Argument name="Amount">3</Argument>
 		<String context="Preview">LOC_SWISS_CONFEDERACY_UNFRIENDLY_RELIGIOUS_STRENGTH_PREVIEW</String>
 	</Modifier>
-	
-	<Modifier id="MOD_SWISS_CONFEDERACY_WORKER_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
-		<Argument name="Amount">1</Argument>
-		<String context="Description">MOD_SWISS_CONFEDERACY_WORKER_CAP_DESCRIPTION</String>
+	<Modifier id="MOD_SWISS_CONFEDERACY_GRANT_VICTORY_TRACKER_POINTS_I" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_VICTORY_TRACKER_POINTS" permanent="true">
+		<Argument name="VictoryType">VICTORY_ECONOMIC_MODERN</Argument>
+		<Argument name="Points" type="ScaleByGameSpeed">150</Argument>
+		<Argument name="ItemName">LOC_CIVICS_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_NAME</Argument>
+		<Argument name="ReplacePoints">true</Argument>
+		<Argument name="TypeData">CULTURE</Argument>
+		<String context="Description">LOC_MOD_SWISS_CONFEDERACY_GRANT_VICTORY_TRACKER_POINTS_EX_DESCRIPTION</String>
 	</Modifier>
-
 </GameEffects>

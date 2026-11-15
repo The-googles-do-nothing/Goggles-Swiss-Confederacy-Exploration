@@ -8,6 +8,7 @@
 		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_JEC_DESCRIPTION">
 			<Text>A Great Person with one charge. Receive one when you complete a [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Production Building[/TIP], and the specific Amtsbürgermeister received is random. Each Amtsbürgermeister can only be received once.</Text>
 		</Row>
+
 		<!-- Great Person -->
 		<Row Tag="LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION">
 			<Text>+5%[icon:YIELD_PRODUCTION] Production from Iron</Text>
