@@ -25,6 +25,10 @@
 			<Text>[B]Karl der Grosse (Charlemagne)[/B] was born near [B]Swiss Confederacy[/B].</Text>
 		</Row>
 
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CATHERINE_SWISS_CONFEDERACY_TOOLTIP">
+			<Text>The [B]Swiss Confederacy[/B] strategically complement [B]Catherine[/B].</Text>
+		</Row>
+
 		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_JEC_PRUSSIA_TOOLTIP">
 			<Text>Play as the [B]Swiss Confederacy[/B].</Text>
 		</Row>

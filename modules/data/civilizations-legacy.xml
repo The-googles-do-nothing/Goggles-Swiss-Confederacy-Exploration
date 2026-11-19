@@ -18,5 +18,6 @@
 	<LegacyLeaderCivPriorities>
 		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
 		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
+		<Row Leader="LEADER_CATHERINE" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
 	</LegacyLeaderCivPriorities>
 </Database>
