@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	
 	<!-- LEHRBEAUFTRAGTER -->
-
-	<!-- <Modifier id="LEHRBEAUFTRAGTER_GRANT_OBSERVATORY" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
+	<Modifier id="LEHRBEAUFTRAGTER_GRANT_OBSERVATORY" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
 		<Argument name="ConstructibleType">BUILDING_OBSERVATORY</Argument>
-		<String context="Summary">LOC_AMTSBURGERMEISTER_BANK</String>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_OBSERVATORY</String>
 	</Modifier>
 
-	<Modifier id="LEHRBEAUFTRAGTER_GRANT_UNIVERSITY" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
-		<Argument name="ConstructibleType">BUILDING_UNIVERSITY</Argument>
-		<String context="Summary">LOC_AMTSBURGERMEISTER_BANK</String>
+	<Modifier id="LEHRBEAUFTRAGTER_GRANT_ARMORER" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_ARMORER</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_ARMORER</String>
 	</Modifier>
 
 	<Modifier id="LEHRBEAUFTRAGTER_GRANT_HOSPITAL" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
 		<Argument name="ConstructibleType">BUILDING_HOSPITAL</Argument>
-		<String context="Summary">LOC_AMTSBURGERMEISTER_BANK</String>
-	</Modifier> -->
-
-	<Modifier id="LEHRBEAUFTRAGTER_GRANT_ECONOMIC_VP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_VICTORY_TRACKER_POINTS">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_MAJOR"/>
-		</SubjectRequirements>
-		<Argument name="VictoryType">VICTORY_ECONOMIC_MODERN</Argument>
-		<Argument name="Points">50</Argument>
-		<Argument name="ItemName">LOC_UNIT_LEHRBEAUFTRAGTER_JEC_NAME</Argument>
-		<Argument name="TypeData">GREATPERSON</Argument>
-		<String context="Description">LOC_UNIT_LEHRBEAUFTRAGTER_JEC_NAME</String>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_HOSPITAL</String>
 	</Modifier>
-
 
 </GameEffects>
